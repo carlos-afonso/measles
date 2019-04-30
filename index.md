@@ -1,12 +1,10 @@
 # Visualizing the 2019 Measles Outbreak
 
-The goal of this webpage is to help inform the public about the current Measles Outbreak, by transforming the Measles raw data into helpful visualizations.
+Transforming raw data into visualizations that help understand the current Measles Outbreak.
 
 # New York City (NYC)
 
-New York City (NYC) provides excellent data about its current Measles Outbreak on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. Moreover, the data seems to be update regularly, at least once a week. So, the visualizations in this webpage will be updated accordingly.
-
-Specifically, NYC provides tables with the number of measles cases by neighborhood, age and date. The next sections present the visualizations for this data.
+NYC provides raw data about the number of Measles Cases by Neighborhood, Age, and Date, on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. Here we visualize that data.
 
 ## NYC Measles Cases by Neighborhood
 
@@ -31,4 +29,4 @@ This webpage is a work in progress:
 Data sources used:
 * [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}
 
-This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}).
+This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}.
