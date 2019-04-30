@@ -1,8 +1,8 @@
 # Visualizing the 2019 Measles Outbreak
 
-*Author:* [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"} | *Date:* 30 Apr 2019
-
-*Author: [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"} | Date: 30 Apr 2019*
+<div style="margin:auto; display:block;">
+  Author: [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"} | Date: 30 Apr 2019
+</div>
 
 Transforming raw data into visualizations that help understand the current Measles Outbreak.
 
@@ -12,16 +12,18 @@ NYC provides raw data about the number of Measles Cases by Neighborhood, Age and
 
 ## NYC Measles Cases by Neighborhood
 
-The animated GIF below shows the NYC Measles Cases by Neighborhood, contrasting the number of the **all** the cases since the beginning of the outbreak (from 1 Sep 2018 to 29 Apr 2019) with the number of the **new(est)** cases (from 23 to 29 Apr 2019) -- the animation alternates every 3 seconds.
+The animated GIF below shows the NYC Measles Cases by Neighborhood, alternating (every 3 seconds) between the number of **all** the cases since the beginning of the outbreak (from 1 Sep 2018 to 29 Apr 2019) and the number of the **new(est)** cases (from 23 to 29 Apr 2019).
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:700px; height:96%; width:auto; margin:auto; display:block;">
 
-The image below shows the same two images shown in the animated GIF above, but now showing them in a static form, side-by-side.
+The image below shows the same two images shown in the animated GIF above but now in a static form, side-by-side.
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto;">
 
-Additional note about the visualizations above:
-* As per the NYC Health data, the following three sets of neighborhoods have their case counts merged: a) "Coney Island" / "Brighton Beach", b) "Midwood" / "Marine Park", and c) "Melrose" / "Longwood" / "Hunts Points".
+Additional notes about the visualizations above:
+* The large majority of the cases are concentrated in Williamsburg, Brooklyn.
+* Most of the neighborhoods that have had at least one case of measles are in Brooklyn, but there are also some neighborhoods in Queens (Flushing and Far Rockaway), and in the Bronx (Melrose, Longwood and Hunts Points).
+* As per the NYC Health data, the following three sets of neighborhoods have their measles case counts merged: a) Coney Island and Brighton Beach; b) Midwood and Marine Park; and c) Melrose, Longwood and Hunts Points.
 
 ## NYC Measles Cases by Age
 
