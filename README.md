@@ -8,11 +8,13 @@ Data source: https://www1.nyc.gov/site/doh/health/health-topics/measles.page
 
 side-by-side (HTML):
 
-<img src="/images/nyc_measles_cases_by_neighborhood_geoplot_all.png" width="47%"> <img src="/images/nyc_measles_cases_by_neighborhood_geoplot_new.png" width="47%">
+<img src="/images/nyc_measles_cases_by_neighborhood_geoplot_all.png" width="47%">
 
-side-by-side (md)
+<img src="/images/nyc_measles_cases_by_neighborhood_geoplot_new.png" width="47%">
 
-![All](/images/nyc_measles_cases_by_neighborhood_geoplot_all.png){:height="300px"} ![New](/images/nyc_measles_cases_by_neighborhood_geoplot_new.png){:height="300px"}
+side-by-side (one image)
+
+![GIF](/images/nyc_measles_cases_by_neighborhood_geoplot_all-new.png){:height="700px"}
 
 GIF:
 
@@ -28,8 +30,8 @@ New:
 
 ### NYC Measles Cases by Age
 
-![NYC new measles cases by age](/images/nyc_measles_cases_by_age_barplot.png){:height="300px"}
+![NYC new measles cases by age](/images/nyc_measles_cases_by_age_barplot.png){:width="400px"}
 
 ### NYC Measles Cases by Date
 
-![NYC new measles cases by date](/images/nyc_new_measles_cases_by_month_barplot.png){:height="400px"}
+![NYC new measles cases by date](/images/nyc_new_measles_cases_by_month_barplot.png){:width="400px"}
