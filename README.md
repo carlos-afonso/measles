@@ -8,8 +8,7 @@ Data source: [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/h
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:700px; height:96%; width:auto; margin:auto; display:block;">
 
-<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto; margin:auto; display:block;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto; margin:auto; display:block;">
-
+<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto;">
 
 ### NYC Measles Cases by Age
 
