@@ -8,9 +8,7 @@ Data source: https://www1.nyc.gov/site/doh/health/health-topics/measles.page
 
 side-by-side (HTML):
 
-<img src="/images/nyc_measles_cases_by_neighborhood_geoplot_all.png" width="47%">
-
-<img src="/images/nyc_measles_cases_by_neighborhood_geoplot_new.png" width="47%">
+<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" width="47%"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" width="47%">
 
 side-by-side (one image)
 
