@@ -263,7 +263,7 @@ $sourcesString = "Sources:  Data: NYC Health;  Image: https://carlos-afonso.gith
 $saveDirectory = FileNameJoin[{ParentDirectory[NotebookDirectory[]], "images"}]
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Cases by Neighborhood*)
 
 
@@ -328,7 +328,7 @@ allCasesByNeighborhoodGeoPlot = With[
 	]
 ];
 
-allCasesByNeighborhoodGeoPlot = Labeled[
+allCasesByNeighborhoodGeoPlot = Framed @ Labeled[
 	allCasesByNeighborhoodGeoPlot,
 	Style[$sourcesString, "Text", 12, FontFamily -> "Verdana"]
 ]
@@ -348,7 +348,7 @@ Export[
 ]
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*New Cases by Neighborhood*)
 
 
@@ -402,7 +402,7 @@ newCasesByNeighborhoodGeoPlot = With[
 	]
 ];
 
-newCasesByNeighborhoodGeoPlot = Labeled[
+newCasesByNeighborhoodGeoPlot = Framed @ Labeled[
 	newCasesByNeighborhoodGeoPlot,
 	Style[$sourcesString, "Text", 12, FontFamily -> "Verdana"]
 ]
@@ -422,7 +422,7 @@ Export[
 ]
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*All & New Cases by Neighborhood (GIF)*)
 
 
@@ -432,17 +432,6 @@ Export[
 	"AnimationRepetitions" -> Infinity,
 	"DisplayDurations" -> 2,
 	ImageResolution -> 200
-]
-
-
-(* ::Subsubsection::Closed:: *)
-(*All & New Cases by Neighborhood (Row)*)
-
-
-Export[
-	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_all-new.png"}], 
-	Row[Framed /@ {allCasesByNeighborhoodGeoPlot, newCasesByNeighborhoodGeoPlot}, Spacer[5]], 
-	ImageResolution -> 100
 ]
 
 
