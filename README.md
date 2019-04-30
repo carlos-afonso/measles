@@ -1,4 +1,4 @@
-# Visualizing the U.S. Measles Outbreak (2018-2019)
+# Visualizing the 2019 Measles Outbreak
 
 **See the results here:** https://carlos-afonso.github.io/measles
 
