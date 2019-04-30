@@ -8,11 +8,11 @@ Data source: https://www1.nyc.gov/site/doh/health/health-topics/measles.page
 
 GIF:
 
-![GIF](/images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif){:class="img-responsive"}
+![GIF](/images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif){:height="600px"}
 
 All:
 
-![All](/images/nyc_measles_cases_by_neighborhood_geoplot_all.png){:height="50%" width="50%"}
+![All](/images/nyc_measles_cases_by_neighborhood_geoplot_all.png){:height="600px"}
 
 New:
 
@@ -24,4 +24,4 @@ New:
 
 ### NYC Measles Cases by Date
 
-![NYC new measles cases by date](/images/nyc_new_measles_cases_by_month_barplot.png){:height="500px"}
+![NYC new measles cases by date](/images/nyc_new_measles_cases_by_month_barplot.png){:height="300px"}
