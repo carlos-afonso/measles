@@ -2,8 +2,6 @@
 
 The goal of this webpage is to help inform the public about the current Measles Outbreak, by transforming the Measles raw data into helpful visualizations.
 
-This webpage is a work in progress. At the moment, it contains visualizations about New York City only, but more locations will be added soon.
-
 # New York City (NYC)
 
 New York City (NYC) provides excellent data about its current Measles Outbreak on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. Moreover, the data seems to be update regularly, at least once a week. So, the visualizations in this webpage will be updated accordingly.
@@ -24,9 +22,13 @@ Specifically, NYC provides tables with the number of measles cases by neighborho
 
 <img src="images/nyc_new_measles_cases_by_month_barplot.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
-# References
+# Notes
 
-Data sources:
+This webpage is a work in progress:
+* The current visualizations will be updated whenever the corresponding data is updated.
+* More locations/visualizations will be added soon.
+
+Data sources used:
 * [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}
 
-This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by Carlos Afonso ([GitHub](https://github.com/carlos-afonso){:target="&#95;blank" rel="noopener"}, [LinkedIn](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}).
+This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}).
