@@ -435,6 +435,17 @@ Export[
 ]
 
 
+(* ::Subsubsection::Closed:: *)
+(*All & New Cases by Neighborhood (Row)*)
+
+
+Export[
+	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_all-new.png"}], 
+	Row[Framed /@ {allCasesByNeighborhoodGeoPlot, newCasesByNeighborhoodGeoPlot}, Spacer[5]], 
+	ImageResolution -> 100
+]
+
+
 (* ::Subsection::Closed:: *)
 (*Cases by Age*)
 
