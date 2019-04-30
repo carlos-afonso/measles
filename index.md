@@ -21,7 +21,7 @@ The image below shows the same two images shown in the animated GIF above but no
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto;">
 
 Additional notes about the visualizations above:
-* The large majority of the cases are concentrated in Williamsburg, Brooklyn.
+* The large majority of the Measles cases are in Brooklyn, and specially concentrated in Williamsburg.
 * Most of the neighborhoods that have had at least one case of measles are in Brooklyn, but there are also some neighborhoods in Queens (Flushing and Far Rockaway), and in the Bronx (Melrose, Longwood and Hunts Points).
 * As per the NYC Health data, the following three sets of neighborhoods have their measles case counts merged: a) Coney Island and Brighton Beach; b) Midwood and Marine Park; and c) Melrose, Longwood and Hunts Points.
 
@@ -41,9 +41,9 @@ The graph below shows the NYC Measles Outbreak evolution over time, by comparing
 
 This webpage is a work in progress:
 * The current visualizations will be updated whenever the corresponding data is updated.
-* More locations/visualizations will be added soon.
+* Additional locations/visualizations will be added soon.
 
 Data sources used:
 * [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}
 
-This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}.
+This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository.
