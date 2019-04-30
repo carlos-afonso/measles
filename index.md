@@ -2,7 +2,7 @@
 
 Author: [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"} | Date: 30 Apr 2019
 
-Transforming raw data into visualizations that help understand the current Measles Outbreak.
+Helping understand the current Measles Outbreak by transforming raw data into helpful visualizations.
 
 # New York City (NYC)
 
@@ -10,7 +10,9 @@ NYC provides raw data about the number of Measles Cases by Neighborhood, Age and
 
 ## NYC Measles Cases by Neighborhood
 
-The animated GIF below shows the NYC Measles Cases by Neighborhood, alternating (every 3 seconds) between the number of **all** the cases since the beginning of the outbreak (from 1 Sep 2018 to 29 Apr 2019) and the number of the **new(est)** cases (from 23 to 29 Apr 2019).
+The visualizations in this section highlight the locations of the neighborhoods affected by the Measles Outbreak, on the NYC map.
+
+The animated GIF below shows the NYC Measles Cases by Neighborhood, alternating (every 3 seconds) between the number of **all** cases since the beginning of the outbreak (from 1 Sep 2018 to 29 Apr 2019) and the number of the **newest** cases (from 23 to 29 Apr 2019).
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:700px; height:96%; width:auto; margin:auto; display:block;">
 
@@ -25,9 +27,13 @@ Additional notes about the visualizations above:
 
 ## NYC Measles Cases by Age
 
+The bar chart below shows the age distribution of NYC measles cases. Most of the cases are in children, particularly in the ones aged from 1 to 4 years.
+
 <img src="images/nyc_measles_cases_by_age_barplot.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 ## NYC Measles Cases by Date
+
+The graph below shows the NYC Measles Outbreak evolution over time, by comparing the number of **new** Measles cases per month. Note that Aprl 2019 is not complete yet, and is very likelly to get more cases in the next data update.
 
 <img src="images/nyc_new_measles_cases_by_month_barplot.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
