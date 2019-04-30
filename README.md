@@ -1,3 +1,5 @@
-# U.S. Measles Outbreak 2018-2019
+# Visualizing the U.S. Measles Outbreak (2018-2019)
 
-See the results here: <a href="https://carlos-afonso.github.io/measles" target="&#95;blank" rel="noopener">https://carlos-afonso.github.io/measles</a>
+**See the results here:** https://carlos-afonso.github.io/measles
+
+MIT License: https://github.com/carlos-afonso/measles/blob/master/LICENSE
