@@ -39,6 +39,8 @@ The graph below shows the NYC Measles Outbreak evolution over time, by comparing
 
 ## Notes
 
+This webpage is for information purposes only, it is not for medical advice. For medical advice refer to the [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"} and/or the [CDC Measles webpage](https://www.cdc.gov/measles/index.html){:target="&#95;blank" rel="noopener"}.
+
 This webpage is a work in progress:
 * The current visualizations will be updated whenever the corresponding data is updated.
 * Additional locations/visualizations will be added soon.
