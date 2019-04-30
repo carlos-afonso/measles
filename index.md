@@ -1,6 +1,6 @@
 # Visualizing the 2019 Measles Outbreak
 
-Author: [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}  |  Creation date: 29 Apr 2019  |  Last update date: 30 Apr 2019.
+Author: [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"} | Date: Apr 30, 2019 
 
 Transforming raw data into visualizations that help understand the current Measles Outbreak.
 
