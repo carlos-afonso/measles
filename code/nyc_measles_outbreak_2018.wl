@@ -430,7 +430,7 @@ Export[
 	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_all-new.gif"}],
 	{allCasesByNeighborhoodGeoPlot, newCasesByNeighborhoodGeoPlot},
 	"AnimationRepetitions" -> Infinity,
-	"DisplayDurations" -> 2,
+	"DisplayDurations" -> 3,
 	ImageResolution -> 200
 ]
 
