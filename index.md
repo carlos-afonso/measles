@@ -1,5 +1,7 @@
 # Visualizing the 2019 Measles Outbreak
 
+Author: [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}  |  Creation date: 29 Apr 2019  |  Last update date: 30 Apr 2019.
+
 Transforming raw data into visualizations that help understand the current Measles Outbreak.
 
 # New York City (NYC)
@@ -7,6 +9,8 @@ Transforming raw data into visualizations that help understand the current Measl
 NYC provides raw data about the number of Measles Cases by Neighborhood, Age, and Date, on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. Here we visualize that data.
 
 ## NYC Measles Cases by Neighborhood
+
+
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:700px; height:96%; width:auto; margin:auto; display:block;">
 
