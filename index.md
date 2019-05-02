@@ -1,6 +1,6 @@
 # Visualizing the 2019 Measles Outbreak
 
-<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on 1 May 2019)</p>
+<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on 2 May 2019)</p>
 
 Helping understand the current measles outbreak by transforming its raw data into visualizations.
 
@@ -14,15 +14,15 @@ To help understand the geographic distribution of the measles outbreak, the visu
 
 The animated GIF below shows the NYC measles cases by neighborhood, alternating (every 3 seconds) between the number of **all** cases since the beginning of the outbreak (from 1 Sep 2018 to 29 Apr 2019) and the number of the **newest** cases (from 23 to 29 Apr 2019).
 
-<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:700px; height:96%; width:auto; margin:auto; display:block;">
+<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:650px; height:90%; width:auto; margin:auto; display:block;">
 
 The visualization below shows the same two images from the animated GIF above but now in a static form, side-by-side.
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto;">
 
 Additional notes about the visualizations above:
-* The large majority of the measles cases are concentrated in Williamsburg, Brooklyn.
-* Most of the neighborhoods that have had at least one case of measles are in Brooklyn, but there are also neighborhoods in Queens (Flushing and Far Rockaway), and in the Bronx (Melrose, Longwood and Hunts Points).
+* The large majority of the NYC measles cases are concentrated in Williamsburg, Brooklyn.
+* Most of the NYC neighborhoods that have had at least one case of measles are in Brooklyn, but there are also neighborhoods in Queens (Flushing and Far Rockaway), and in the Bronx (Melrose, Longwood and Hunts Points).
 
 ### NYC Measles Cases by Age
 
