@@ -6,7 +6,7 @@ Helping understand the current measles outbreak by transforming its raw data int
 
 ## New York City (NYC)
 
-NYC provides raw data about the number of measles cases by neighborhood, age and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. Here we visualize that data.
+NYC provides raw data about the number of measles cases by neighborhood, age and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. This section presents visualizations of that data, to help understand the current NYC measles outbreak.
 
 ### NYC Measles Cases by Neighborhood
 
@@ -16,7 +16,7 @@ The animated GIF below shows the NYC measles cases by neighborhood, alternating 
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:700px; height:96%; width:auto; margin:auto; display:block;">
 
-The image below shows the same two images shown in the animated GIF above but now in a static form, side-by-side.
+The visualization below shows the same two images from the animated GIF above but now in a static form, side-by-side.
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto;">
 
@@ -26,7 +26,7 @@ Additional notes about the visualizations above:
 
 ### NYC Measles Cases by Age
 
-The bar chart below shows the age distribution of NYC measles cases. Most of the cases are in children, particularly in the ones aged from 1 to 4 years.
+The bar chart below shows the age distribution of NYC measles cases. Most of the cases are in children, particularly the ones aged from 1 to 4 years.
 
 <img src="images/nyc_measles_cases_by_age_barplot.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
