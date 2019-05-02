@@ -18,7 +18,7 @@ The animated GIF below shows the NYC measles cases by neighborhood, alternating 
 
 The visualization below shows the same two images from the animated GIF above but now in a static form, side-by-side.
 
-<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:49%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:49%; height:auto;">
+<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:450px; width:45%; height:auto;">    <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:450px; width:45%; height:auto;">
 
 Additional notes about the visualizations above:
 * The large majority of the NYC measles cases are concentrated in Williamsburg, Brooklyn.
