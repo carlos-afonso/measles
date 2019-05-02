@@ -14,7 +14,7 @@ To help understand the geographic distribution of the measles outbreak, the visu
 
 The animated GIF below shows the NYC measles cases by neighborhood, alternating (every 3 seconds) between the number of **all** cases since the beginning of the outbreak (from 1 Sep 2018 to 29 Apr 2019) and the number of the **newest** cases (from 23 to 29 Apr 2019).
 
-<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:650px; height:90%; width:auto; margin:auto; display:block;">
+<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:90vh; height:auto; width:auto; margin:auto; display:block;">
 
 The visualization below shows the same two images from the animated GIF above but now in a static form, side-by-side.
 
