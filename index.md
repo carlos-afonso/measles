@@ -22,7 +22,7 @@ The animation below shows the NYC measles cases by neighborhood, alternating (ev
 
 Additional notes about the visualizations above:
 * The large majority of the NYC measles cases are concentrated in Williamsburg, Brooklyn.
-* Most of the NYC neighborhoods that have had at least one case of measles are in Brooklyn, but there are also neighborhoods in Queens (Flushing and Far Rockaway), and in the Bronx (Melrose, Longwood and Hunts Points).
+* Most of the NYC neighborhoods that have had at least one case of measles are in Brooklyn, but there are also neighborhoods in Queens (Flushing, Far Rockaway, and Jamaica), and in the Bronx (Melrose, Longwood, and Hunts Points).
 
 ### NYC Measles Cases by Age
 
