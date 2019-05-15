@@ -57,7 +57,7 @@
 (*Data source: https://www1.nyc.gov/site/doh/health/health-topics/measles.page*)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Dates*)
 
 
@@ -94,7 +94,7 @@ $allCasesStartDay = DateObject[{2018, 9,  1}, "Day"];
 } // TableForm
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Cases by Neighborhood*)
 
 
@@ -194,7 +194,7 @@ Map[
 *)
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Cases by Age*)
 
 
@@ -220,7 +220,7 @@ $casesByAge // Dataset
 {#, SameQ @@ #}& @ {$allCasesTotal, Total[Values @ $casesByAge]}
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Cases by Date (Month)*)
 
 
@@ -266,7 +266,7 @@ $sourcesString = "Sources:  Data: NYC Health;  Image: https://carlos-afonso.gith
 $saveDirectory = FileNameJoin[{ParentDirectory[NotebookDirectory[]], "images"}]
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Cases by Neighborhood*)
 
 
@@ -466,7 +466,7 @@ casesByAgeBarPlot = With[{data = Reverse[$casesByAge]},
 	BarChart[
 		data,
 		BarOrigin -> Left,
-		ChartLabels -> Keys[data],
+		ChartLabels -> (Style[#, "Text", 12]& /@ Keys[data]),
 		ChartStyle -> LightBlue,
 		Frame -> True,
 		FrameLabel -> {
