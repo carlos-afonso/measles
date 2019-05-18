@@ -1,6 +1,6 @@
 # Visualizing the 2019 Measles Outbreak
 
-<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on 14 May 2019)</p>
+<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on May 17, 2019)</p>
 
 Helping understand the current measles outbreak by transforming its raw data into visualizations.
 
@@ -26,9 +26,15 @@ Additional notes about the visualizations above:
 
 ### NYC Measles Cases by Age
 
-The bar chart below shows the age distribution of NYC measles cases. Most of the cases are in children, particularly the ones aged from 1 to 4 years.
+The bar chart below shows the age distribution of the NYC measles cases. Most of the cases are in children, particularly the ones aged from 1 to 4 years.
 
 <img src="images/nyc_measles_cases_by_age_barplot.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+
+### NYC Measles Cases by Vaccination Status
+
+The bar chart below shows the MMR vaccination status of the NYC measles cases. The large majority of the people who got measles were unvaccinated.
+
+<img src="images/nyc_measles_cases_by_vaccination_status_barchart_wl.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 ### NYC Measles Cases by Date
 
