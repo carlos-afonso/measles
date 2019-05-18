@@ -114,7 +114,7 @@ barChart = Labeled[
 
 
 Export[
-	FileNameJoin[{imagesDirectory, "nyc_measles_cases_by_vaccination_status.png"}], 
+	FileNameJoin[{imagesDirectory, "nyc_measles_cases_by_vaccination_status_barchart_wl.png"}], 
 	barChart, 
 	ImageResolution -> 300
 ]
