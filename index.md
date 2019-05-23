@@ -6,13 +6,13 @@ Helping understand the current measles outbreak by transforming its raw data int
 
 ## New York City (NYC)
 
-NYC provides raw data about the number of measles cases by neighborhood, age and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. This section presents visualizations of that data, to help understand the current NYC measles outbreak.
+NYC provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. This section presents visualizations of that data, to help understand the current NYC measles outbreak.
 
 ### NYC Measles Cases by Neighborhood
 
 To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map, with colors representing the number of cases.
 
-The animation below shows the NYC measles cases by neighborhood, alternating (every 7 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to May 20, 2019) and the number of the **newest** cases (from May 13 to May 20, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison.
+The animation below shows the NYC measles cases by neighborhood, alternating (every 7 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to May 20, 2019) and the number of **newest** cases (from May 13 to May 20, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison.
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:90vh; height:auto; width:auto; margin:auto; display:block;">
 
