@@ -66,8 +66,8 @@
 
 
 (* IMPORTANT: When udpdating the data, make sure to update these dates accordingly *)
-$dataUpdateDay    = DateObject[{2019, 5, 13}, "Day"];
-$newCasesStartDay = DateObject[{2019, 5,  6}, "Day"];
+$dataUpdateDay    = DateObject[{2019, 5, 20}, "Day"];
+$newCasesStartDay = DateObject[{2019, 5, 13}, "Day"];
 $allCasesStartDay = DateObject[{2018, 9,  1}, "Day"];
 
 (* These DateString(s) are auxiliary variables, to be displayed in the visualizations *)
@@ -98,12 +98,12 @@ $allCasesStartDay = DateObject[{2018, 9,  1}, "Day"];
 (*Cases by Neighborhood*)
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*Define*)
 
 
-$allCasesTotal = 498;
-$newCasesTotal =  32;
+$allCasesTotal = 523;
+$newCasesTotal =  25;
 
 $allCasesTotalString = ToString[$allCasesTotal];
 $newCasesTotalString = ToString[$newCasesTotal];
@@ -114,29 +114,29 @@ $casesByNeighborhood = With[
 		suffix = "::NewYork::NewYork::UnitedStates"
 	},
 	Association[
-		Entity[type, "Bensonhurst"        <> suffix] -> <|"All" ->   1, "New" ->  0|>,
-		Entity[type, "BoroughPark"        <> suffix] -> <|"All" ->  74, "New" ->  5|>,
+		Entity[type, "Bensonhurst"        <> suffix] -> <|"All" ->   2, "New" ->  1|>,
+		Entity[type, "BoroughPark"        <> suffix] -> <|"All" ->  80, "New" ->  6|>,
 		(* NOTE: "Brighton Beach" and "Coney Island" cases are merged (i.e., a union) *)
-		Entity[type, "BrightonBeach"      <> suffix] -> <|"All" ->   4, "New" ->  1|>,
-		Entity[type, "ConeyIsland"        <> suffix] -> <|"All" ->   4, "New" ->  1|>,
+		Entity[type, "BrightonBeach"      <> suffix] -> <|"All" ->   4, "New" ->  0|>,
+		Entity[type, "ConeyIsland"        <> suffix] -> <|"All" ->   4, "New" ->  0|>,
 		Entity[type, "CrownHeights"       <> suffix] -> <|"All" ->   2, "New" ->  0|>,
 		(* NOTE: "Midwood" and "Marine Park" cases are merged (i.e., a union) *)
 		Entity[type, "Midwood"            <> suffix] -> <|"All" ->   4, "New" ->  0|>,
 		Entity[type, "MarinePark"         <> suffix] -> <|"All" ->   4, "New" ->  0|>,
-		Entity[type, "SunsetPark"         <> suffix] -> <|"All" ->   7, "New" ->  3|>,
-		Entity[type, "Williamsburg"       <> suffix] -> <|"All" -> 399, "New" -> 20|>,
-		Entity[type, "Flushing"           <> suffix] -> <|"All" ->   3, "New" ->  1|>,
+		Entity[type, "SunsetPark"         <> suffix] -> <|"All" ->   8, "New" ->  1|>,
+		Entity[type, "Williamsburg"       <> suffix] -> <|"All" -> 415, "New" -> 16|>,
+		Entity[type, "Flushing"           <> suffix] -> <|"All" ->   3, "New" ->  0|>,
 		Entity[type, "FarRockaway"        <> suffix] -> <|"All" ->   1, "New" ->  0|>,
 		(* NOTE: "Hunts Point", "Longwood" and "Melrose" cases are merged (i.e., a union) *)
 		Entity[type, "HuntsPointLongwood" <> suffix] -> <|"All" ->   1, "New" ->  0|>,
 		Entity[type, "Melrose"            <> suffix] -> <|"All" ->   1, "New" ->  0|>, 
-		Entity[type, "FlatbushDitmasPark" <> suffix] -> <|"All" ->   1, "New" ->  1|>, 
-		Entity[type, "Jamaica"            <> suffix] -> <|"All" ->   1, "New" ->  1|>
+		Entity[type, "FlatbushDitmasPark" <> suffix] -> <|"All" ->   1, "New" ->  0|>, 
+		Entity[type, "Jamaica"            <> suffix] -> <|"All" ->   2, "New" ->  1|>
 	]
 ];
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*Check*)
 
 
@@ -194,7 +194,7 @@ Map[
 *)
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Cases by Age*)
 
 
@@ -259,18 +259,18 @@ $casesByMonth // Reverse // Dataset
 (*Auxiliary variables*)
 
 
-$sourcesString = "Sources:  Data: NYC Health;  Image: https://carlos-afonso.github.io/measles";
+$sourcesString = "Data: NYC Health, Image: carlos-afonso.github.io/measles";
 
 
 (*$saveDirectory = If[SameQ[#, ""], NotebookDirectory[], #]& @ $InputFileName*)
 $saveDirectory = FileNameJoin[{ParentDirectory[NotebookDirectory[]], "images"}]
 
 
-(* ::Subsection::Closed:: *)
+(* ::Subsection:: *)
 (*Cases by Neighborhood*)
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*Auxiliary definitions*)
 
 
@@ -291,7 +291,7 @@ casesCountToColor[n_Integer] := Which[
 ];
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*All Cases by Neighborhood*)
 
 
@@ -307,13 +307,88 @@ allCasesByNeighborhoodGeoPlot = With[
 	GeoRegionValuePlot[
 		allCasesColorByNeighborhood,
 		GeoBackground -> GeoStyling["StreetMap"],
-		GeoRange -> {{40.55, 40.853}, {-74.04, -73.73}},
+		GeoRange -> {{40.545, 40.853}, {-74.04, -73.73}},
 		GeoZoomLevel -> 11,
 		ImageSize -> Large,
 		PlotLabel -> Column[
 			{
 				Style["All NYC measles cases by neighborhood", "Text", 24, Black],
-				Style["498 total cases from 1 Sep 2018 to 13 May 2019", "Text", 18, Black, Bold],
+				Style["523 total cases from Sep 1, 2018, to May 20, 2019", "Text", 18, Black, Bold],
+				SwatchLegend[
+					Directive[#, $opacity]& /@ {$lowCasesColor, $midLowCasesColor, $midHighCasesColor, $highCasesColor}, 
+					Style[First[#], Last[#], Bold, fontSize]& /@ {
+						{"1 or 2 ",           $lowCasesColor}, 
+						{"3 to 9 ",           $midLowCasesColor}, 
+						{"10 to 99 ",         $midHighCasesColor}, 
+						{"100 or more cases", $highCasesColor}
+					}, 
+					LegendMarkerSize -> fontSize,
+					LegendLayout -> "Row"
+				]
+			},
+			Center
+		],
+		Epilog -> {
+			Inset[Style["Bensonhurst\n 2 cases ",                     $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.09, 0.152}]],
+			Inset[Style["Borough\nPark\n 80 cases ",                  Purple, Bold, fontSize, Background -> LightPurple], Scaled[{0.18, 0.39}]],
+			Inset[Style["Coney Island / Brighton Beach\n 4 cases ",   Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.22, 0.045}]],
+			Inset[Style["Crown Heights\n 2 cases ",                   $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.34, 0.445}]],
+			Inset[Style["Midwood / Marine Park\n 4 cases ",           Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.46, 0.25}]],
+			Inset[Style["Sunset\nPark\n 8 cases ",                    Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.06, 0.42}]],
+			Inset[Style["Williamsburg\n 415 cases ",                  Red,    Bold, fontSize, Background -> LightRed],    Scaled[{0.35, 0.59}]],
+			Inset[Style["Flushing\n 3 cases ",                        Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.67, 0.80}]],
+			Inset[Style["Far Rockaway\n 1 case ",                     $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.89, 0.11}]],
+			Inset[Style["Melrose / Longwood / Hunts Point\n 1 case ", $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.46, 0.94}]], 
+			Inset[Style["Flatbush\n 1 case ",                         $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.36, 0.33}]], 
+			Inset[Style["Jamaica\n 2 cases ",                          $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.77, 0.575}]]
+		}
+	]
+];
+
+allCasesByNeighborhoodGeoPlot = Framed @ Labeled[
+	allCasesByNeighborhoodGeoPlot,
+	Style[$sourcesString, "Text", 12, FontFamily -> "Lucida Console"]
+]
+
+
+$casesByNeighborhood[[All, "All"]]
+
+
+(* ::Subsubsubsection:: *)
+(*Export*)
+
+
+Export[
+	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_all.svg"}],
+	allCasesByNeighborhoodGeoPlot
+]
+
+
+(* ::Subsubsection::Closed:: *)
+(*New Cases by Neighborhood*)
+
+
+(* ::Subsubsubsection:: *)
+(*Create*)
+
+
+newCasesByNeighborhoodGeoPlot = With[
+	{
+		newCasesColorByNeighborhood = casesCountToColor /@ Select[$casesByNeighborhood[[All, "New"]], (# > 0)&],
+		fontSize = 13
+	},
+	GeoRegionValuePlot[
+		newCasesColorByNeighborhood,
+		GeoBackground -> GeoStyling["StreetMap"],
+		GeoRange -> {{40.545, 40.853}, {-74.04, -73.73}},
+		(*GeoRange -> {{40.57, 40.853}, {-74.03, -73.73}}, *)
+		GeoZoomLevel -> 11,
+		ImageSize -> Large,
+		PlotLabel -> Column[
+			{
+				Style["Newest NYC measles cases by neighborhood", "Text", 24, Black], 
+				(*Row[{Style["NYC", "Text", 24, Black], Style[" newest ", "Text", 24, Black, Bold], Style["measles cases by neighborhood", "Text", 24, Black]}],*)
+				Style["25 total cases from May 13 to May 20, 2019", "Text", 18, Black, Bold],
 				SwatchLegend[
 					Directive[#, $opacity]& /@ {$lowCasesColor, $midLowCasesColor, $midHighCasesColor, $highCasesColor}, 
 					Style[First[#], Last[#], Bold, fontSize]& /@ {
@@ -330,100 +405,24 @@ allCasesByNeighborhoodGeoPlot = With[
 		],
 		Epilog -> {
 			Inset[Style["Bensonhurst\n 1 case ",                      $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.09, 0.152}]],
-			Inset[Style["Borough\nPark\n 74 cases ",                  Purple, Bold, fontSize, Background -> LightPurple], Scaled[{0.18, 0.39}]],
-			Inset[Style["Coney Island / Brighton Beach\n 4 cases ",   Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.24, 0.05}]],
-			Inset[Style["Crown Heights\n 2 cases ",                   $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.34, 0.445}]],
-			Inset[Style["Midwood / Marine Park\n 4 cases ",           Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.46, 0.25}]],
-			Inset[Style["Sunset\nPark\n 7 cases ",                    Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.06, 0.42}]],
-			Inset[Style["Williamsburg\n 399 cases ",                  Red,    Bold, fontSize, Background -> LightRed],    Scaled[{0.35, 0.575}]],
-			Inset[Style["Flushing\n 3 cases ",                        Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.67, 0.79}]],
-			Inset[Style["Far Rockaway\n 1 case ",                     $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.89, 0.11}]],
-			Inset[Style["Melrose / Longwood / Hunts Point\n 1 case ", $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.46, 0.92}]], 
-			Inset[Style["Flatbush\n 1 case ",                         $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.36, 0.33}]], 
-			Inset[Style["Jamaica\n 1 case ",                          $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.77, 0.57}]]
-		}
-	]
-];
-
-allCasesByNeighborhoodGeoPlot = Framed @ Labeled[
-	allCasesByNeighborhoodGeoPlot,
-	Style[$sourcesString, "Text", 12, FontFamily -> "Verdana"]
-]
-
-
-$casesByNeighborhood[[All, "All"]]
-
-
-(* ::Subsubsubsection:: *)
-(*Export*)
-
-
-Export[
-	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_all.png"}],
-	allCasesByNeighborhoodGeoPlot,
-	ImageResolution -> 300
-]
-
-
-(* ::Subsubsection:: *)
-(*New Cases by Neighborhood*)
-
-
-(* ::Subsubsubsection:: *)
-(*Create*)
-
-
-newCasesByNeighborhoodGeoPlot = With[
-	{
-		newCasesColorByNeighborhood = casesCountToColor /@ Select[$casesByNeighborhood[[All, "New"]], (# > 0)&],
-		fontSize = 13
-	},
-	GeoRegionValuePlot[
-		newCasesColorByNeighborhood,
-		GeoBackground -> GeoStyling["StreetMap"],
-		GeoRange -> {{40.55, 40.853}, {-74.04, -73.73}},
-		(*GeoRange -> {{40.57, 40.853}, {-74.03, -73.73}}, *)
-		GeoZoomLevel -> 11,
-		ImageSize -> Large,
-		PlotLabel -> Column[
-			{
-				Style["Newest NYC measles cases by neighborhood", "Text", 24, Black], 
-				(*Row[{Style["NYC", "Text", 24, Black], Style[" newest ", "Text", 24, Black, Bold], Style["measles cases by neighborhood", "Text", 24, Black]}],*)
-				Style["32 total cases from 6 to 13 May 2019", "Text", 18, Black, Bold],
-				SwatchLegend[
-					Directive[#, $opacity]& /@ {$lowCasesColor, $midLowCasesColor, $midHighCasesColor, $highCasesColor}, 
-					Style[First[#], Last[#], Bold, fontSize]& /@ {
-						{"1 or 2 ",           $lowCasesColor}, 
-						{"3 to 9 ",           $midLowCasesColor}, 
-						{"10 to 99 ",         $midHighCasesColor}, 
-						{"100 or more cases", $highCasesColor}
-					}, 
-					LegendMarkerSize -> fontSize,
-					LegendLayout -> "Row"
-				]
-			},
-			Center
-		],
-		Epilog -> {
-			(*Inset[Style["Bensonhurst\n 1 case ",                      $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.09, 0.152}]],*)
-			Inset[Style["Borough\nPark\n 5 cases ",                  Blue, Bold, fontSize, Background -> LightBlue], Scaled[{0.18, 0.39}]],
-			Inset[Style["Coney Island / Brighton Beach\n 1 case ",   $lowCasesColor,   Bold, fontSize, Background -> LightCyan],   Scaled[{0.24, 0.05}]],
+			Inset[Style["Borough\nPark\n 6 cases ",                   Blue, Bold, fontSize, Background -> LightBlue], Scaled[{0.18, 0.39}]],
+			(*Inset[Style["Coney Island / Brighton Beach\n 4 cases ",   Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.22, 0.045}]],*)
 			(*Inset[Style["Crown Heights\n 2 cases ",                   $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.34, 0.445}]],*)
 			(*Inset[Style["Midwood / Marine Park\n 4 cases ",           Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.46, 0.25}]],*)
-			Inset[Style["Sunset\nPark\n 3 cases ",                    Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.06, 0.42}]],
-			Inset[Style["Williamsburg\n 20 cases ",                  Purple,    Bold, fontSize, Background -> LightPurple],    Scaled[{0.35, 0.575}]],
-			Inset[Style["Flushing\n 1 case ",                        $lowCasesColor,   Bold, fontSize, Background -> LightCyan],   Scaled[{0.67, 0.79}]],
+			Inset[Style["Sunset\nPark\n 1 case ",                     $lowCasesColor,   Bold, fontSize, Background -> LightCyan],   Scaled[{0.06, 0.42}]],
+			Inset[Style["Williamsburg\n 16 cases ",                   Purple,    Bold, fontSize, Background -> LightPurple],    Scaled[{0.35, 0.59}]],
+			(*Inset[Style["Flushing\n 3 cases ",                        Blue,   Bold, fontSize, Background -> LightBlue],   Scaled[{0.67, 0.80}]],*)
 			(*Inset[Style["Far Rockaway\n 1 case ",                     $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.89, 0.11}]],*)
-			(*Inset[Style["Melrose / Longwood / Hunts Point\n 1 case ", $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.46, 0.92}]], *)
-			Inset[Style["Flatbush\n 1 case ",                         $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.36, 0.33}]], 
-			Inset[Style["Jamaica\n 1 case ",                          $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.77, 0.57}]]
+			(*Inset[Style["Melrose / Longwood / Hunts Point\n 1 case ", $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.46, 0.94}]],*) 
+			(*Inset[Style["Flatbush\n 1 case ",                         $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.36, 0.33}]],*) 
+			Inset[Style["Jamaica\n 1 case ",                          $lowCasesColor, Bold, fontSize, Background -> LightCyan],   Scaled[{0.77, 0.575}]]
 		}
 	]
 ];
 
 newCasesByNeighborhoodGeoPlot = Framed @ Labeled[
 	newCasesByNeighborhoodGeoPlot,
-	Style[$sourcesString, "Text", 12, FontFamily -> "Verdana"]
+	Style[$sourcesString, "Text", 12, FontFamily -> "Lucida Console"]
 ]
 
 
@@ -435,13 +434,12 @@ $casesByNeighborhood[[All, "New"]]
 
 
 Export[
-	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_new.png"}],
-	newCasesByNeighborhoodGeoPlot,
-	ImageResolution -> 300
+	FileNameJoin[{$saveDirectory, "nyc_measles_cases_by_neighborhood_geoplot_new.svg"}],
+	newCasesByNeighborhoodGeoPlot
 ]
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*All & New Cases by Neighborhood (GIF)*)
 
 
@@ -450,11 +448,11 @@ Export[
 	{allCasesByNeighborhoodGeoPlot, newCasesByNeighborhoodGeoPlot},
 	"AnimationRepetitions" -> Infinity,
 	"DisplayDurations" -> 7,
-	ImageResolution -> 300
+	ImageResolution -> 150
 ]
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Cases by Age*)
 
 
@@ -508,7 +506,7 @@ Export[
 ]
 
 
-(* ::Subsection:: *)
+(* ::Subsection::Closed:: *)
 (*Cases by Date (Month)*)
 
 
