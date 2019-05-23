@@ -12,13 +12,13 @@ NYC provides raw data about the number of measles cases by neighborhood, age and
 
 To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map, with colors representing the number of cases.
 
-The animation below shows the NYC measles cases by neighborhood, alternating (every 7 seconds) between the number of **all** cases since the beginning of the outbreak (from 1 Sep 2018 to 13 May 2019) and the number of the **newest** cases (from 6 to 13 May 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison.
+The animation below shows the NYC measles cases by neighborhood, alternating (every 7 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to May 20, 2019) and the number of the **newest** cases (from May 13 to May 20, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison.
 
 <img src="images/nyc_measles_cases_by_neighborhood_geoplot_all-new.gif" style="max-height:90vh; height:auto; width:auto; margin:auto; display:block;">
 
 (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
 
-<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.png" style="max-width:500px; width:48%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.png" style="max-width:500px; width:48%; height:auto;">
+<img src="images/nyc_measles_cases_by_neighborhood_geoplot_all.svg" style="max-width:500px; width:48%; height:auto;"> <img src="images/nyc_measles_cases_by_neighborhood_geoplot_new.svg" style="max-width:500px; width:48%; height:auto;">
 
 Additional notes about the visualizations above:
 * The large majority of the NYC measles cases are concentrated in Williamsburg, Brooklyn.
@@ -28,13 +28,13 @@ Additional notes about the visualizations above:
 
 The bar chart below shows the age distribution of the NYC measles cases. Most of the cases are in children, particularly the ones aged from 1 to 4 years.
 
-<img src="images/nyc_measles_cases_by_age_barplot.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+<img src="images/nyc_measles_cases_by_age_barchart_py.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 ### NYC Measles Cases by Vaccination Status
 
 The bar chart below shows the MMR vaccination status of the NYC measles cases. The large majority of the people who got measles were unvaccinated.
 
-<img src="images/nyc_measles_cases_by_vaccination_status_barchart_wl.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+<img src="images/nyc_measles_cases_by_vaccination_status_barchart_py.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 ### NYC Measles Cases by Date
 
