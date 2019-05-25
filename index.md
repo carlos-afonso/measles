@@ -28,7 +28,7 @@ Additional notes about the visualizations above:
 
 The bar chart below shows the age distribution of the NYC measles cases. Most of the cases are in children, particularly the ones aged from 1 to 4 years.
 
-<img src="images/nyc_measles_cases_by_age_barchart_py.png" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+<img src="images/nyc_measles_cases_by_age_barchart_py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 ### NYC Measles Cases by Vaccination Status
 
