@@ -18,7 +18,7 @@ The animation below shows the NYC measles cases by neighborhood, alternating (ev
 
 (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
 
-<img src="images/nyc_measles_cases_by_neighborhood_map_all_py.png" style="max-width:500px; width:48%; height:auto; border:1px solid black; padding:10px;"> <img src="images/nyc_measles_cases_by_neighborhood_map_new_py.png" style="max-width:500px; width:48%; height:auto; border:1px solid black; padding:10px;">
+<img src="images/nyc_measles_cases_by_neighborhood_map_all_py.png" style="max-width:500px; width:47%; height:auto; border:1px solid black; padding:5px;"> <img src="images/nyc_measles_cases_by_neighborhood_map_new_py.png" style="max-width:500px; width:47%; height:auto; border:1px solid black; padding:5px;">
 
 Additional notes about the visualizations above:
 * The large majority of the NYC measles cases are concentrated in Williamsburg, Brooklyn.
