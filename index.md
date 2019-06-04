@@ -10,7 +10,7 @@ NYC provides raw data about the number of measles cases by neighborhood, age, va
 
 ### NYC Measles Cases by Neighborhood
 
-To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map, with colors representing the number of cases.
+To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map.
 
 The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to May 29, 2019) and the number of **newest** cases (from May 24 to May 29, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison.
 
