@@ -14,7 +14,7 @@ To help understand the geographic distribution of the NYC measles outbreak, the 
 
 The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to May 29, 2019) and the number of **newest** cases (from May 24 to May 29, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison.
 
-<img src="images/nyc_measles_cases_by_neighborhood_map_all-new_py.gif" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
+<img src="images/nyc_measles_cases_by_neighborhood_map_all-new_py.gif" style="max-height:90vh; height:auto; width:auto; margin:auto; display:block; border:1px solid black; padding:5px;">
 
 (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
 
