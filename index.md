@@ -1,6 +1,6 @@
 # Visualizing the 2019 Measles Outbreak
 
-<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on June 5, 2019)</p>
+<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on June 11, 2019)</p>
 
 Helping understand the current measles outbreak by transforming its raw data into visualizations.
 
@@ -12,7 +12,7 @@ NYC provides raw data about the number of measles cases by neighborhood, age, va
 
 To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map.
 
-The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Jun 3, 2019) and the number of **newest** cases (from May 29 to Jun 3, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
+The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Jun 10, 2019) and the number of **newest** cases (from Jun 3 to Jun 10, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
 
 <img src="images/nyc_measles_cases_by_neighborhood_map_all-new_py.gif" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
 
@@ -36,7 +36,7 @@ The bar chart below shows the MMR vaccination status of the NYC measles cases. T
 
 ### NYC Measles Cases by Date
 
-The graph below shows the NYC measles outbreak evolution over time, by comparing the number of **new** measles cases per month. Note that June 2019 is incomplete and is very likely to get more cases in the next data update.
+The graph below shows the NYC measles outbreak evolution over time, by comparing the number of **new** measles cases per month. Note that Jun 2019 is incomplete and is very likely to get more cases in the next data update.
 
 <img src="images/nyc_new_measles_cases_by_month_barchart_py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
