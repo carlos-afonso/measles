@@ -19,8 +19,9 @@ The animation below shows the NYC measles cases by neighborhood, alternating (ev
 <img src="images/nyc_measles_cases_by_neighborhood_map_all_py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;"> <img src="images/nyc_measles_cases_by_neighborhood_map_new_py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;">
 
 Additional notes about the visualizations above:
-* The large majority of the NYC measles cases are concentrated in Williamsburg, Borough Park, and Sunset Park, in Brooklyn.
-* Most of the NYC neighborhoods that have had at least one case of measles are in Brooklyn, but there are also neighborhoods in Queens (Flushing, Far Rockaway, Jamaica, West Queens, Long Island City, and Astoria), in the Bronx (Melrose, Longwood, and Hunts Points), in Staten Island (Port Richmond, and Willowbrook), and in Manhattan (Chelsea and Clinton).
+
+* The large majority of the NYC measles cases are concentrated in four Brooklyn neighborhoods: Williamsburg, Borough Park, Sunset Park, and Crown Heights. Moreover, currently (as of Jul 15, 2019), these four neighborhoods are the only ones with ongoing measles transmission.
+* Although most of the NYC neighborhoods with measles cases are in Brooklyn, there are also neighborhoods in Queens (Flushing, Far Rockaway, Jamaica, West Queens, Long Island City, and Astoria), in the Bronx (Melrose, Longwood, and Hunts Points), in Staten Island (Port Richmond, and Willowbrook), and in Manhattan (Chelsea and Clinton).
 * West Queens includes the neighborhoods of Corona, Elmhurst,
 Jackson Heights, Maspeth, and Woodside, as per this [NYC Health document](https://www1.nyc.gov/assets/doh/downloads/pdf/data/2006chp-402.pdf){:target="&#95;blank" rel="noopener"}.
 
