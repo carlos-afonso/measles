@@ -1,7 +1,4 @@
-code/.ipynb_checkpoints/nyc_measles_cases_by_age-checkpoint.ipynb
-code/.ipynb_checkpoints/nyc_measles_cases_by_vaccination_status-checkpoint.ipynb
-code/.ipynb_checkpoints/nyc_measles_cases_by_date-checkpoint.ipynb
-code/.ipynb_checkpoints/nyc_new_measles_cases_by_month-checkpoint.ipynb
-code/.ipynb_checkpoints/nyc_measles_cases_by_neighborhood-checkpoint.ipynb
+code/.ipynb_checkpoints/**
 images/nyc_measles_cases_by_neighborhood_map_all_py.html
 images/nyc_measles_cases_by_neighborhood_map_new_py.html
+z/**
