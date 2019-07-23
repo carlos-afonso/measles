@@ -1,6 +1,6 @@
 # Visualizing the 2019 Measles Outbreak
 
-<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on July 17, 2019)</p>
+<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on July 23, 2019)</p>
 
 Helping understand the current measles outbreak by transforming its raw data into visualizations.
 
@@ -12,7 +12,7 @@ NYC provides raw data about the number of measles cases by neighborhood, age, va
 
 To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map.
 
-The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Jul 15, 2019) and the number of **newest** cases (from Jul 8 to Jul 15, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
+The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Jul 22, 2019) and the number of **newest** cases (from Jul 15 to Jul 22, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
 
 <img src="images/nyc_measles_cases_by_neighborhood_map_all-new_py.gif" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
 
@@ -20,7 +20,7 @@ The animation below shows the NYC measles cases by neighborhood, alternating (ev
 
 Additional notes about the visualizations above:
 
-* The large majority of the NYC measles cases are concentrated in four Brooklyn neighborhoods: Williamsburg, Borough Park, Sunset Park, and Crown Heights. Moreover, currently (as of Jul 15, 2019), these four neighborhoods are the only ones with ongoing measles transmission.
+* The large majority of the NYC measles cases are concentrated in four Brooklyn neighborhoods: Williamsburg, Borough Park, Sunset Park, and Crown Heights. Moreover, currently (as of Jul 22, 2019), these four neighborhoods are the only ones with ongoing measles transmission.
 * Although most of the NYC neighborhoods with measles cases are in Brooklyn, there are also neighborhoods in Queens (Flushing, Far Rockaway, Jamaica, West Queens, Long Island City, and Astoria), in the Bronx (Melrose, Longwood, and Hunts Points), in Staten Island (Port Richmond, and Willowbrook), and in Manhattan (Chelsea and Clinton).
 * West Queens includes the neighborhoods of Corona, Elmhurst,
 Jackson Heights, Maspeth, and Woodside, as per this [NYC Health document](https://www1.nyc.gov/assets/doh/downloads/pdf/data/2006chp-402.pdf){:target="&#95;blank" rel="noopener"}.
@@ -39,17 +39,11 @@ The bar chart below shows the MMR vaccination status of the NYC measles cases. T
 
 ### NYC New Measles Cases by Month
 
-The graph below shows the NYC measles outbreak evolution over time, by comparing the number of **new** measles cases per month. It is important to highlight the positive news in this plot: the recent months of May and June 2019 show a significant and progressive decline in the number of new cases, as compared to the peaks from Mar and Apr 2019.
+The graph below shows the NYC measles outbreak evolution over time, by comparing the number of **new** measles cases per month. It is important to highlight the positive news in this plot: the last two months (May and June 2019) show a significant and progressive decline in the number of new cases, as compared to the peaks from Mar and Apr 2019.
 
 <img src="images/nyc_new_measles_cases_by_month_barchart_py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 Note that the month of Jul 2019 is incomplete and therefore is likely to get more cases in the next data update. Moreover, due to delayed reporting, the month of Jun 2019 may also get more cases in the next data update.
-
-### NYC New Measles Cases Daily Average
-
-The plot below shows the NYC new measles cases daily average. This plot also shows the same positive news seen in the previous graph: the last two months (May and June 2019) show a significant and progressive decline in the number of new measles cases, as compared with the highest levels achieved in Mar and Apr 2019.
-
-<img src="images/nyc_new_measles_cases_daily_avg_stepplot_py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
 ## Notes
 
