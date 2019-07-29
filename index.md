@@ -31,6 +31,8 @@ Most of the NYC measles cases are in children, particularly the ones aged from 1
 
 <img src="images/nyc-measles-cases-by-age-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
+The bar chart above was created with this Jupyter/Python notebook ([.ipynb](https://github.com/carlos-afonso/measles/blob/master/notebooks/nyc-measles-cases-by-age.ipynb){:target="&#95;blank" rel="noopener"} or [.html](https://carlos-afonso.github.io/measles/notebooks/nyc-measles-cases-by-age.html)).
+
 ### NYC Measles Cases by Vaccination Status
 
 The bar chart below shows the MMR vaccination status of the NYC measles cases. The large majority of the people who got measles were unvaccinated.
@@ -55,9 +57,5 @@ This webpage is a work in progress:
 
 Data sources used:
 * [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}
-
-Each of the visualizations above was created using a corresponding Jupyter/Python notebook. These notebooks are available in .ipynb format (on GitHub) and as static HTML pages. Here are the direct links to the notebooks:
-
-* "NYC Measles Cases by Age" notebook: [.ipynb](https://github.com/carlos-afonso/measles/blob/master/notebooks/nyc-measles-cases-by-age.ipynb){:target="&#95;blank" rel="noopener"} or [.html](https://carlos-afonso.github.io/measles/notebooks/nyc-measles-cases-by-age.html)
 
 This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}.
