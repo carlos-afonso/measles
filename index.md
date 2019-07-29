@@ -29,7 +29,9 @@ Jackson Heights, Maspeth, and Woodside, as per this [NYC Health document](https:
 
 The bar chart below shows the age distribution of the NYC measles cases. Most of the cases are in children, particularly the ones aged from 1 to 4 years.
 
-<img src="images/nyc_measles_cases_by_age_barchart_py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+<img src="images/nyc-measles-cases-by-age-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+
+The bar chart above was created with this Jupyter/Python notebook: [.ipynb format on GitHub](https://github.com/carlos-afonso/measles/blob/master/notebooks/nyc-measles-cases-by-age.ipynb){:target="&#95;blank" rel="noopener"} or [static HTML format](https://carlos-afonso.github.io/measles/notebooks/nyc-measles-cases-by-age.html)
 
 ### NYC Measles Cases by Vaccination Status
 
