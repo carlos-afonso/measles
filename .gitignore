@@ -2,5 +2,5 @@ ignore/**
 images/*.html
 notebooks/.ipynb_checkpoints/**
 images/nyc-measles-cases-by-age-bar-chart-py.png
-images/nyc_measles_cases_by_vaccination_status_barchart_py.png
+images/nyc-measles-cases-by-vaccination-status-bar-chart-py.png
 images/nyc_new_measles_cases_by_month_barchart_py.png
