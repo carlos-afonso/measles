@@ -13116,10 +13116,10 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="NYC-Measles-Cases-by-Age-(2018-2019)">NYC Measles Cases by Age (2018-2019)<a class="anchor-link" href="#NYC-Measles-Cases-by-Age-(2018-2019)">&#182;</a></h1><ul>
+<h1 id="NYC-Measles-Cases-by-Age-(2018---2019)">NYC Measles Cases by Age (2018 - 2019)<a class="anchor-link" href="#NYC-Measles-Cases-by-Age-(2018---2019)">&#182;</a></h1><ul>
 <li>This Jupyter/Python notebook creates a bar chart of the 2018-2019 NYC Measles Cases by Age.</li>
 <li>This notebook is part of the <a href="https://carlos-afonso.github.io/measles/">Visualizing the 2019 Measles Outbreak</a> GitHub project, under <a href="https://github.com/carlos-afonso/measles/blob/master/LICENSE">MIT License</a>.</li>
-<li><a href="https://www.linkedin.com/in/carlos-afonso-w/">Carlos Afonso</a>, July 30, 2019</li>
+<li><a href="https://www.linkedin.com/in/carlos-afonso-w/">Carlos Afonso</a>, July 30, 2019.</li>
 </ul>
 
 </div>
@@ -13137,7 +13137,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import the necessary libraries/modules</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import the necessary libraries/modules.</span>
 <span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">os</span>
@@ -13152,7 +13152,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Import-Data">Import Data<a class="anchor-link" href="#Import-Data">&#182;</a></h2><p>The data has been manually collected from the <a href="https://www1.nyc.gov/site/doh/health/health-topics/measles.page">NYC Health Measles webpage</a>, and saved as a <a href="https://github.com/carlos-afonso/measles/blob/master/data/nyc_health_measles_cases_by_age.csv">CSV file</a>.</p>
+<h2 id="Import-Data">Import Data<a class="anchor-link" href="#Import-Data">&#182;</a></h2><p>The data has been manually collected from the <a href="https://www1.nyc.gov/site/doh/health/health-topics/measles.page">NYC Health Measles webpage</a>, and saved as a <a href="https://github.com/carlos-afonso/measles/blob/master/data/nyc-measles-cases-by-age.csv">CSV file</a>.</p>
 
 </div>
 </div>
@@ -13162,75 +13162,13 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set (relative) path to CSV data file</span>
-<span class="n">data_file</span> <span class="o">=</span> <span class="s1">&#39;../data/nyc_health_measles_cases_by_age.csv&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set (relative) path to the CSV data file</span>
+<span class="n">data_file</span> <span class="o">=</span> <span class="s1">&#39;../data/nyc-measles-cases-by-age.csv&#39;</span>
 
-<span class="c1"># Import data from CSV file as a pandas dataframe</span>
+<span class="c1"># Import data from the CSV file as a pandas dataframe</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data_file</span><span class="p">)</span>
-</pre></div>
 
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Check-Data">Check Data<a class="anchor-link" href="#Check-Data">&#182;</a></h2><p>Check the data we just imported.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show basic information about the data</span>
-<span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-RangeIndex: 9 entries, 0 to 8
-Data columns (total 7 columns):
-Start Date           9 non-null object
-End Date             9 non-null object
-Under 1 year         9 non-null int64
-1 to 4 years         9 non-null int64
-5 to 17 years        9 non-null int64
-18 years and over    9 non-null int64
-Total                9 non-null int64
-dtypes: int64(5), object(2)
-memory usage: 584.0+ bytes
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show all the data</span>
+<span class="c1"># Show all the data</span>
 <span class="n">df</span>
 </pre></div>
 
@@ -13244,7 +13182,7 @@ memory usage: 584.0+ bytes
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -13382,14 +13320,14 @@ memory usage: 584.0+ bytes
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Extract-Data">Extract Data<a class="anchor-link" href="#Extract-Data">&#182;</a></h2><p>Extract and transform the data necessary to create the bar chart.</p>
-<p>Note that each row in the dataframe is a data update. We want the latest data update which is the last row in the dataframe.</p>
+<p>Each row in the dataframe is a data update. We want the latest data which is the last row in the dataframe.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show the latest data (last row in the dataframe)</span>
@@ -13406,7 +13344,7 @@ memory usage: 584.0+ bytes
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -13470,7 +13408,7 @@ memory usage: 584.0+ bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Notes about the lambda function below:</span>
@@ -13496,7 +13434,7 @@ memory usage: 584.0+ bytes
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13521,7 +13459,7 @@ memory usage: 584.0+ bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Get the number of total cases (last row, last column)</span>
@@ -13539,7 +13477,7 @@ memory usage: 584.0+ bytes
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13564,7 +13502,7 @@ memory usage: 584.0+ bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Extract the data to plot (last row, second to penultimate columns)</span>
@@ -13583,7 +13521,7 @@ memory usage: 584.0+ bytes
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13605,18 +13543,19 @@ Name: 8, dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Create-Bar-Chart">Create Bar Chart<a class="anchor-link" href="#Create-Bar-Chart">&#182;</a></h2><p>We create a bar chart that provides the necessary context:</p>
+<h2 id="Create-Bar-Chart">Create Bar Chart<a class="anchor-link" href="#Create-Bar-Chart">&#182;</a></h2><p>We want the bar chart of the NYC Measles Cases by Age to be clear and to contain the necessary context.</p>
+<p>To contextualize the bar chart we:</p>
 <ul>
-<li>the title says exactely what it is;</li>
-<li>the sub-title showns the start and end dates, and the total number of cases during that period;</li>
-<li>a text annotation at the bottom provides information about the data and image sources;</li>
+<li>use a title that explictly says what the bar chart represents;</li>
+<li>use a sub-title that showns the start and end dates, and the total number of cases during that period;</li>
+<li>add a text annotation at the bottom that provides information about the data and image sources.</li>
 </ul>
-<p>Also, we make the bar chart as clear as possible:</p>
+<p>To make the bar chart as clear as possible we:</p>
 <ul>
 <li>use an horizontal bar chart because it is  easier to read than a vertical one;</li>
 <li>explicitly show the number and percentage of cases for each age group;</li>
 <li>use a large enough font to make all labels easy to read;</li>
-<li>remove unnecessary elements: x-axis ticks and values, y-axis ticks, and plot box.</li>
+<li>remove unnecessary elements (x-axis ticks and values, y-axis ticks, and plot box).</li>
 </ul>
 
 </div>
@@ -13624,7 +13563,7 @@ Name: 8, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Define font parameters</span>
@@ -13645,7 +13584,7 @@ Name: 8, dtype: object</pre>
 <span class="n">subtitle</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">total_cases</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; total cases from &#39;</span> <span class="o">+</span> <span class="n">start_date</span> <span class="o">+</span> <span class="s1">&#39;, to &#39;</span> <span class="o">+</span> <span class="n">end_date</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">subtitle</span><span class="p">,</span> <span class="n">fontname</span><span class="o">=</span><span class="n">fn</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="p">(</span><span class="n">fsb</span> <span class="o">+</span> <span class="mi">2</span><span class="p">))</span>
 
-<span class="c1"># Create the horizontal bar plot</span>
+<span class="c1"># Create the horizontal bar chart</span>
 <span class="n">ax</span> <span class="o">=</span> <span class="n">d2p</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">barh</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;silver&#39;</span><span class="p">)</span>
 
 <span class="c1"># Invert the y-axis</span>
@@ -13654,14 +13593,14 @@ Name: 8, dtype: object</pre>
 <span class="c1"># Remove the x-axis ticks and values</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">get_xaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_ticks</span><span class="p">([])</span>
 
-<span class="c1"># Remove the y-axis ticks only (keeps the labels)</span>
+<span class="c1"># Remove the y-axis ticks only (keep the labels)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_ticks_position</span><span class="p">(</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
 
 <span class="c1"># Set the y-axis labels font properties</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">d2p</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">fontname</span><span class="o">=</span><span class="n">fn</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">fsb</span><span class="p">)</span>
 
 <span class="c1"># Create labels in front of the bars showing the number and percentage of cases.</span>
-<span class="c1"># Note: we round the percentages to the closest integer.</span>
+<span class="c1"># Note: we round the percentages to the nearest integer.</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">patches</span><span class="p">:</span>
     <span class="n">label</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">get_width</span><span class="p">())</span> <span class="o">+</span> <span class="s2">&quot; (&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="n">i</span><span class="o">.</span><span class="n">get_width</span><span class="p">()</span> <span class="o">/</span> <span class="n">total_cases</span><span class="p">)))</span> <span class="o">+</span> <span class="s2">&quot;%)&quot;</span>
     <span class="n">ax</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">get_width</span><span class="p">()</span> <span class="o">+</span> <span class="mi">5</span><span class="p">,</span> <span class="n">i</span><span class="o">.</span><span class="n">get_y</span><span class="p">()</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">fontname</span><span class="o">=</span><span class="n">fn</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">fsb</span><span class="p">)</span>
@@ -13669,7 +13608,7 @@ Name: 8, dtype: object</pre>
 <span class="c1"># Remove the axes box</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
 
-<span class="c1"># Add text about the Data/Image sources</span>
+<span class="c1"># Add text about the Data and Image sources</span>
 <span class="n">sources</span> <span class="o">=</span> <span class="s1">&#39;Data: NYC Health, Image: carlos-afonso.github.io/measles&#39;</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.03</span><span class="p">,</span> <span class="n">sources</span><span class="p">,</span> <span class="n">fontname</span><span class="o">=</span><span class="s1">&#39;Lucida Console&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="p">(</span><span class="n">fsb</span> <span class="o">-</span> <span class="mi">2</span><span class="p">),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
 
@@ -13713,7 +13652,7 @@ Name: 8, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set image file path/name (without file extension)</span>
@@ -13740,10 +13679,11 @@ Name: 8, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;jupyter nbconvert --to html nyc-measles-cases-by-age.ipynb&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Export this notebook as a static HTML page</span>
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;jupyter nbconvert --to html nyc-measles-cases-by-age.ipynb&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13756,7 +13696,7 @@ Name: 8, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13767,19 +13707,6 @@ Name: 8, dtype: object</pre>
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 
