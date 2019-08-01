@@ -65,4 +65,4 @@ Each of the visualizations above was created using a corresponding Python/Jupyte
 Data sources used:
 * [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}
 
-This webpage is part of the [measles](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"} GitHub repository, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}.
+This webpage is part of the [measles GitHub repository](https://github.com/carlos-afonso/measles){:target="&#95;blank" rel="noopener"}, created by [Carlos Afonso](https://www.linkedin.com/in/carlos-afonso-w){:target="&#95;blank" rel="noopener"}.
