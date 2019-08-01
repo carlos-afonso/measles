@@ -13119,7 +13119,7 @@ div#notebook {
 <h1 id="NYC-Measles-Cases-by-Age-(2018---2019)">NYC Measles Cases by Age (2018 - 2019)<a class="anchor-link" href="#NYC-Measles-Cases-by-Age-(2018---2019)">&#182;</a></h1><ul>
 <li>This Jupyter/Python notebook creates a bar chart of the 2018-2019 NYC Measles Cases by Age.</li>
 <li>This notebook is part of the <a href="https://carlos-afonso.github.io/measles/">Visualizing the 2019 Measles Outbreak</a> GitHub project, under <a href="https://github.com/carlos-afonso/measles/blob/master/LICENSE">MIT License</a>.</li>
-<li><a href="https://www.linkedin.com/in/carlos-afonso-w/">Carlos Afonso</a>, July 30, 2019.</li>
+<li><a href="https://www.linkedin.com/in/carlos-afonso-w/">Carlos Afonso</a>, July 31, 2019.</li>
 </ul>
 
 </div>
@@ -13167,151 +13167,9 @@ div#notebook {
 
 <span class="c1"># Import data from the CSV file as a pandas dataframe</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data_file</span><span class="p">)</span>
-
-<span class="c1"># Show all the data</span>
-<span class="n">df</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[2]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Start Date</th>
-      <th>End Date</th>
-      <th>Under 1 year</th>
-      <th>1 to 4 years</th>
-      <th>5 to 17 years</th>
-      <th>18 years and over</th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2018-09-01</td>
-      <td>2019-05-20</td>
-      <td>83</td>
-      <td>227</td>
-      <td>113</td>
-      <td>100</td>
-      <td>523</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2018-09-01</td>
-      <td>2019-05-24</td>
-      <td>85</td>
-      <td>229</td>
-      <td>115</td>
-      <td>106</td>
-      <td>535</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2018-09-01</td>
-      <td>2019-05-29</td>
-      <td>87</td>
-      <td>237</td>
-      <td>119</td>
-      <td>107</td>
-      <td>550</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2018-09-01</td>
-      <td>2019-06-03</td>
-      <td>89</td>
-      <td>245</td>
-      <td>120</td>
-      <td>112</td>
-      <td>566</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2018-09-01</td>
-      <td>2019-06-10</td>
-      <td>91</td>
-      <td>252</td>
-      <td>125</td>
-      <td>120</td>
-      <td>588</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2018-09-01</td>
-      <td>2019-06-24</td>
-      <td>95</td>
-      <td>261</td>
-      <td>129</td>
-      <td>124</td>
-      <td>609</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2018-09-01</td>
-      <td>2019-07-15</td>
-      <td>97</td>
-      <td>267</td>
-      <td>132</td>
-      <td>127</td>
-      <td>623</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2018-09-01</td>
-      <td>2019-07-22</td>
-      <td>97</td>
-      <td>273</td>
-      <td>138</td>
-      <td>129</td>
-      <td>637</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2018-09-01</td>
-      <td>2019-07-29</td>
-      <td>100</td>
-      <td>275</td>
-      <td>138</td>
-      <td>129</td>
-      <td>642</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13464,6 +13322,12 @@ div#notebook {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Get the number of total cases (last row, last column)</span>
 <span class="n">total_cases</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># Check if there is a problem with the data where the reported total</span>
+<span class="c1"># does not match the sum of the number of cases for each age group</span>
+<span class="k">if</span> <span class="n">total_cases</span> <span class="o">!=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;WARNING: cases for each age group do NOT add up to the reported total!&#39;</span><span class="p">)</span>
+
 <span class="n">total_cases</span>
 </pre></div>
 
