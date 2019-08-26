@@ -12,11 +12,11 @@ NYC provides raw data about the number of measles cases by neighborhood, age, va
 
 To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map.
 
-The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Jul 29, 2019) and the number of **newest** cases (from Jul 22 to Jul 29, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
+The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Aug 19, 2019) and the number of **latest** cases (from Aug 12 to Aug 19, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
 
-<img src="images/nyc-measles-cases-by-neighborhood-map-all-new-py.gif" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
+<img src="images/nyc-measles-cases-by-neighborhood-map-all-latest-py.gif" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
 
-<img src="images/nyc-measles-cases-by-neighborhood-map-all-py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;"> <img src="images/nyc-measles-cases-by-neighborhood-map-new-py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;">
+<img src="images/nyc-measles-cases-by-neighborhood-map-all-py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;"> <img src="images/nyc-measles-cases-by-neighborhood-map-latest-py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;">
 
 Additional notes about the visualizations above:
 
