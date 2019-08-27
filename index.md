@@ -1,6 +1,6 @@
 # Visualizing the 2019 Measles Outbreak
 
-<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on August 26, 2019)</p>
+<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on August 27, 2019)</p>
 
 Helping understand the current measles outbreak by transforming its raw data into visualizations.
 
@@ -42,7 +42,7 @@ The bar chart below shows the MMR vaccination status of the NYC measles cases. T
 
 ### NYC New Measles Cases by Month
 
-The graph below shows the NYC measles outbreak evolution over time, by comparing the number of **new** measles cases per month. The number of new cases peaked in Mar and Apr 2019. In Apr 2019 the NYC Health department took additional/strong measures to prevent the outbreak. Since May 2019 the number of new cases has been significantly and progressively declining, and Aug 2019 has no reported new cases yet (as of Aug 19). However, the month of Aug 2019 is incomplete and may still get some/more cases in the next data update.
+The graph below shows the NYC measles outbreak evolution over time, by comparing the number of **new** measles cases per month. The number of new cases peaked in Mar and Apr 2019. In Apr 2019 the NYC Health department took additional/strong measures to prevent the outbreak. Since May 2019 the number of new cases has been significantly and progressively declining, and Aug 2019 has no reported new cases yet (as of Aug 26). However, the month of Aug 2019 is incomplete and may still get some/more cases in the next data update.
 
 <img src="images/nyc-new-measles-cases-by-month-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
 
