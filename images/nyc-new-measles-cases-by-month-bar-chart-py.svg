@@ -19,7 +19,7 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path clip-path="url(#pf2b6979ae2)" d="M 14.004878 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 14.004878 253.44 
 L 35.780488 253.44 
 L 35.780488 252.528071 
 L 14.004878 252.528071 
@@ -27,7 +27,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#pf2b6979ae2)" d="M 41.22439 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 41.22439 253.44 
 L 63 253.44 
 L 63 241.584919 
 L 41.22439 241.584919 
@@ -35,7 +35,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#pf2b6979ae2)" d="M 68.443902 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 68.443902 253.44 
 L 90.219512 253.44 
 L 90.219512 227.905979 
 L 68.443902 227.905979 
@@ -43,7 +43,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_5">
-    <path clip-path="url(#pf2b6979ae2)" d="M 95.663415 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 95.663415 253.44 
 L 117.439024 253.44 
 L 117.439024 240.67299 
 L 95.663415 240.67299 
@@ -51,7 +51,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_6">
-    <path clip-path="url(#pf2b6979ae2)" d="M 122.882927 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 122.882927 253.44 
 L 144.658537 253.44 
 L 144.658537 220.610545 
 L 122.882927 220.610545 
@@ -59,7 +59,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_7">
-    <path clip-path="url(#pf2b6979ae2)" d="M 150.102439 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 150.102439 253.44 
 L 171.878049 253.44 
 L 171.878049 188.693019 
 L 150.102439 188.693019 
@@ -67,7 +67,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_8">
-    <path clip-path="url(#pf2b6979ae2)" d="M 177.321951 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 177.321951 253.44 
 L 199.097561 253.44 
 L 199.097561 98.412018 
 L 177.321951 98.412018 
@@ -75,7 +75,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_9">
-    <path clip-path="url(#pf2b6979ae2)" d="M 204.541463 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 204.541463 253.44 
 L 226.317073 253.44 
 L 226.317073 76.525714 
 L 204.541463 76.525714 
@@ -83,7 +83,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_10">
-    <path clip-path="url(#pf2b6979ae2)" d="M 231.760976 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 231.760976 253.44 
 L 253.536585 253.44 
 L 253.536585 163.158999 
 L 231.760976 163.158999 
@@ -91,7 +91,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_11">
-    <path clip-path="url(#pf2b6979ae2)" d="M 258.980488 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 258.980488 253.44 
 L 280.756098 253.44 
 L 280.756098 233.377555 
 L 258.980488 233.377555 
@@ -99,7 +99,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_12">
-    <path clip-path="url(#pf2b6979ae2)" d="M 286.2 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 286.2 253.44 
 L 307.97561 253.44 
 L 307.97561 247.968424 
 L 286.2 247.968424 
@@ -107,7 +107,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_13">
-    <path clip-path="url(#pf2b6979ae2)" d="M 313.419512 253.44 
+    <path clip-path="url(#p28a6adbff0)" d="M 313.419512 253.44 
 L 335.195122 253.44 
 L 335.195122 253.44 
 L 313.419512 253.44 
@@ -1267,7 +1267,7 @@ z
    </g>
   </g>
   <g id="text_26">
-   <!-- NYC New Measles Cases by Age -->
+   <!-- NYC New Measles Cases by Month -->
    <defs>
     <path d="M 27.875 0 
 L 27.875 30.328125 
@@ -1327,8 +1327,27 @@ L 35.84375 39.890625
 L 25.34375 0 
 z
 " id="ArialMT-119"/>
+    <path d="M 6.59375 0 
+L 6.59375 71.578125 
+L 15.375 71.578125 
+L 15.375 45.90625 
+Q 21.53125 53.03125 30.90625 53.03125 
+Q 36.671875 53.03125 40.921875 50.75 
+Q 45.171875 48.484375 47 44.484375 
+Q 48.828125 40.484375 48.828125 32.859375 
+L 48.828125 0 
+L 40.046875 0 
+L 40.046875 32.859375 
+Q 40.046875 39.453125 37.1875 42.453125 
+Q 34.328125 45.453125 29.109375 45.453125 
+Q 25.203125 45.453125 21.75 43.421875 
+Q 18.3125 41.40625 16.84375 37.9375 
+Q 15.375 34.46875 15.375 28.375 
+L 15.375 0 
+z
+" id="ArialMT-104"/>
    </defs>
-   <g transform="translate(35.160469 20.303437)scale(0.18 -0.18)">
+   <g transform="translate(26.154844 20.303437)scale(0.18 -0.18)">
     <use xlink:href="#ArialMT-78"/>
     <use x="72.216797" xlink:href="#ArialMT-89"/>
     <use x="138.916016" xlink:href="#ArialMT-67"/>
@@ -1354,9 +1373,11 @@ z
     <use x="1178.125" xlink:href="#ArialMT-98"/>
     <use x="1233.740234" xlink:href="#ArialMT-121"/>
     <use x="1283.740234" xlink:href="#ArialMT-32"/>
-    <use x="1311.445312" xlink:href="#ArialMT-65"/>
-    <use x="1378.144531" xlink:href="#ArialMT-103"/>
-    <use x="1433.759766" xlink:href="#ArialMT-101"/>
+    <use x="1311.523438" xlink:href="#ArialMT-77"/>
+    <use x="1394.824219" xlink:href="#ArialMT-111"/>
+    <use x="1450.439453" xlink:href="#ArialMT-110"/>
+    <use x="1506.054688" xlink:href="#ArialMT-116"/>
+    <use x="1533.837891" xlink:href="#ArialMT-104"/>
    </g>
   </g>
   <g id="text_27">
@@ -1863,7 +1884,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pf2b6979ae2">
+  <clipPath id="p28a6adbff0">
    <rect height="185.76" width="334.8" x="7.2" y="67.68"/>
   </clipPath>
  </defs>
