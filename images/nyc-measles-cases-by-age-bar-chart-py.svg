@@ -19,7 +19,7 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path clip-path="url(#p528dc2d12a)" d="M 126.259063 83.905116 
+    <path clip-path="url(#p686fdfa9d1)" d="M 126.259063 83.905116 
 L 242.102845 83.905116 
 L 242.102845 117.393488 
 L 126.259063 117.393488 
@@ -27,7 +27,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#p528dc2d12a)" d="M 126.259063 125.765581 
+    <path clip-path="url(#p686fdfa9d1)" d="M 126.259063 125.765581 
 L 445.116205 125.765581 
 L 445.116205 159.253953 
 L 126.259063 159.253953 
@@ -35,7 +35,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#p528dc2d12a)" d="M 126.259063 167.626047 
+    <path clip-path="url(#p686fdfa9d1)" d="M 126.259063 167.626047 
 L 293.716411 167.626047 
 L 293.716411 201.114419 
 L 126.259063 201.114419 
@@ -43,7 +43,7 @@ z
 " style="fill:#c0c0c0;"/>
    </g>
    <g id="patch_5">
-    <path clip-path="url(#p528dc2d12a)" d="M 126.259063 209.486512 
+    <path clip-path="url(#p686fdfa9d1)" d="M 126.259063 209.486512 
 L 274.217953 209.486512 
 L 274.217953 242.974884 
 L 126.259063 242.974884 
@@ -795,7 +795,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <!-- 654 total cases from Sep 1, 2018, to Aug 19, 2019 -->
+    <!-- 654 total cases from Sep 1, 2018, to Aug 26, 2019 -->
     <defs>
      <path d="M 6.390625 0 
 L 6.390625 71.578125 
@@ -1066,8 +1066,8 @@ z
      <use x="1700.947266" xlink:href="#ArialMT-117"/>
      <use x="1756.5625" xlink:href="#ArialMT-103"/>
      <use x="1812.177734" xlink:href="#ArialMT-32"/>
-     <use x="1839.960938" xlink:href="#ArialMT-49"/>
-     <use x="1895.576172" xlink:href="#ArialMT-57"/>
+     <use x="1839.960938" xlink:href="#ArialMT-50"/>
+     <use x="1895.576172" xlink:href="#ArialMT-54"/>
      <use x="1951.191406" xlink:href="#ArialMT-44"/>
      <use x="1978.974609" xlink:href="#ArialMT-32"/>
      <use x="2006.757812" xlink:href="#ArialMT-50"/>
@@ -1706,7 +1706,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p528dc2d12a">
+  <clipPath id="p686fdfa9d1">
    <rect height="180" width="334.8" x="126.259063" y="73.44"/>
   </clipPath>
  </defs>
