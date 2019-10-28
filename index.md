@@ -14,8 +14,6 @@ The visualization below shows the geographic distribution of the measles cases o
 
 <img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.png" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
 
-<img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.svg">
-
 Note that:
 
 * Although most of the NYC neighborhoods with measles cases were in Brooklyn, there were also neighborhoods in Queens (Flushing, Far Rockaway, Jamaica, and West Queens), in Staten Island (Port Richmond, and Willowbrook), and in Manhattan (Chelsea/Clinton).
