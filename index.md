@@ -12,7 +12,9 @@ NYC was the jurisdiction with most measles cases in the US, and it's the one tha
 
 The visualization below shows the geographic distribution of the measles cases over the NYC map, explicitly showing the number of measles cases in each of the affected neighborhoods.
 
-<img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.svg" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
+<img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.png" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
+
+<img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.svg">
 
 Note that:
 
