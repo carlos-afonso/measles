@@ -2,29 +2,21 @@
 
 <p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on August 27, 2019)</p>
 
-Helping understand the current measles outbreak by transforming its raw data into visualizations.
+Helping understand the 2019 Measles Outbreak by transforming raw data into visualizations.
 
 ## New York City (NYC)
 
-NYC provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. This section presents visualizations of that data, to help understand the current NYC measles outbreak.
+NYC was the jurisdiction with most measles cases in the US, and it's the one that provides the best data. Indeed, NYC provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. This section presents visualizations of that raw data, to help understand the NYC measles outbreak.
 
 ### NYC Measles Cases by Neighborhood
 
-To help understand the geographic distribution of the NYC measles outbreak, the visualizations below highlight the locations of the affected neighborhoods on the NYC map.
+The visualization below shows the geographic distribution of the measles cases over the NYC map, explicitly showing the number of measles cases in each of the affected neighborhoods.
 
-The animation below shows the NYC measles cases by neighborhood, alternating (every 5 seconds) between the number of **all** cases since the beginning of the outbreak (from Sep 1, 2018, to Aug 26, 2019) and the number of **latest** cases (from Aug 19 to Aug 26, 2019). Immediately after, the same two maps are presented in a static form, side-by-side, for easy comparison. (Note: If you are using a phone, to better see the side-by-side maps below turn to landscape mode or zoom in.)
+<img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.svg" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
 
-<img src="images/nyc-measles-cases-by-neighborhood-map-all-latest-py.gif" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
+Note that:
 
-<img src="images/nyc-measles-cases-by-neighborhood-map-all-py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;"> <img src="images/nyc-measles-cases-by-neighborhood-map-latest-py.png" style="max-width:500px; width:46%; height:auto; border:1px solid black; padding:1%;">
-
-Additional notes about the visualizations above:
-
-<!---
-* The large majority of the NYC measles cases are concentrated in four Brooklyn neighborhoods: Williamsburg, Borough Park, Sunset Park, and Crown Heights. Moreover, currently (as of Jul 22, 2019), these four neighborhoods are the only ones with ongoing measles transmission.
---->
-
-* Although most of the NYC neighborhoods with measles cases are in Brooklyn, there are also neighborhoods in Queens (Flushing, Far Rockaway, Jamaica, West Queens, Long Island City, and Astoria), in the Bronx (Melrose, Longwood, and Hunts Points), in Staten Island (Port Richmond, and Willowbrook), and in Manhattan (Chelsea and Clinton).
+* Although most of the NYC neighborhoods with measles cases were in Brooklyn, there were also neighborhoods in Queens (Flushing, Far Rockaway, Jamaica, and West Queens), in Staten Island (Port Richmond, and Willowbrook), and in Manhattan (Chelsea/Clinton).
 * West Queens includes the neighborhoods of Corona, Elmhurst,
 Jackson Heights, Maspeth, and Woodside, as per this [NYC Health document](https://www1.nyc.gov/assets/doh/downloads/pdf/data/2006chp-402.pdf){:target="&#95;blank" rel="noopener"}.
 
