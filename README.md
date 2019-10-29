@@ -18,7 +18,7 @@ In addition to Python, the following 10 packages are also required for this proj
 
 I recommend you use the following conda commands to create a new  `measles` environment and install all the necessary packages:
 
-1. Create a new `measles` environment and install 0 of the 10 necessary packages:
+1. Create a new `measles` environment and install 8 of the 10 necessary packages:
 
 `conda create -n measles python bokeh imageio jupyterlab matplotlib pandas pillow selenium xlrd`
 
