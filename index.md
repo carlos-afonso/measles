@@ -1,12 +1,12 @@
 # Visualizing the 2019 Measles Outbreak
 
-<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on August 27, 2019)</p>
+<p style="font-size:80%;">(Updated by <a href="https://www.linkedin.com/in/carlos-afonso-w" target="&#95;blank" rel="noopener">Carlos Afonso</a> on October 30, 2019)</p>
 
-Helping understand the 2019 Measles Outbreak by transforming raw data into visualizations.
+The United States is facing, in 2019, the highest number of Measles cases since the disease was eliminated in 2000 [[CDC](https://www.cdc.gov/media/releases/2019/s0424-highest-measles-cases-since-elimination.html)]. From January 1 to October 3, 2019, 1,250 measles cases have been (preliminarily) confirmed in 31 states [[CDC](https://www.cdc.gov/measles/cases-outbreaks.html)]. This page presents visualizations that help understand the 2019 measles outbreak.
 
 ## New York City (NYC)
 
-NYC was the jurisdiction with most measles cases in the US, and it's the one that provides the best data. Indeed, NYC provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date on its [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"}. This section presents visualizations of that raw data, to help understand the NYC measles outbreak.
+The measles outbreak in New York City (NYC) was declared over on September 3, 2019, practically one year after the first case was detected (on the month of September 2018). With 649 confirmed measles cases, NYC is by far the U.S. jurisdiction with most cases, accounting for around half of all U.S. measles cases in 2019. The [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"} provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date. This section presents visualizations of that raw data, to help understand the 2019 measles outbreak in NYC.
 
 ### NYC Measles Cases by Neighborhood
 
