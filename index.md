@@ -12,6 +12,12 @@ The measles outbreak in New York City (NYC) was declared over on September 3, 20
 
 The visualization below shows the geographic distribution of the measles cases over the NYC map, explicitly showing the number of measles cases in each of the affected neighborhoods.
 
+*(Testing: Insert SVG image using html object tag)*
+
+<object data="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.svg"></object>
+
+*(Testing: Insert PNG image using html img tag)*
+
 <img src="images/nyc-measles-cases-by-neighborhood-map-final-bokeh.png" style="max-height:80vh; height:auto; width:auto; margin:auto; display:block;">
 
 Note that:
