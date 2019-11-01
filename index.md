@@ -36,7 +36,7 @@ Most of the NYC measles cases are in children, particularly the ones aged from 1
 
 The bar chart below shows the MMR vaccination status of the NYC measles cases. The large majority of the people who got measles were unvaccinated.
 
-<img src="images/nyc-measles-cases-by-vaccination-status-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+<img src="images/nyc-measles-cases-by-vaccination-status-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block; border:1px solid black; padding:5px;">
 
 ## Notes
 
