@@ -19,7 +19,7 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path clip-path="url(#p42fb2f2879)" d="M 139.21 48.64186 
+    <path clip-path="url(#p3605224813)" d="M 139.21 48.64186 
 L 458.067143 48.64186 
 L 458.067143 89.095814 
 L 139.21 89.095814 
@@ -27,7 +27,7 @@ z
 " style="fill:#ff0000;opacity:0.3;"/>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#p42fb2f2879)" d="M 139.21 99.209302 
+    <path clip-path="url(#p3605224813)" d="M 139.21 99.209302 
 L 170.62779 99.209302 
 L 170.62779 139.663256 
 L 139.21 139.663256 
@@ -35,7 +35,7 @@ z
 " style="fill:#ff0000;opacity:0.3;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#p42fb2f2879)" d="M 139.21 149.776744 
+    <path clip-path="url(#p3605224813)" d="M 139.21 149.776744 
 L 159.932372 149.776744 
 L 159.932372 190.230698 
 L 139.21 190.230698 
@@ -43,7 +43,7 @@ z
 " style="fill:#ff0000;opacity:0.3;"/>
    </g>
    <g id="patch_5">
-    <path clip-path="url(#p42fb2f2879)" d="M 139.21 200.344186 
+    <path clip-path="url(#p3605224813)" d="M 139.21 200.344186 
 L 202.04558 200.344186 
 L 202.04558 240.79814 
 L 139.21 240.79814 
@@ -776,7 +776,7 @@ z
    </g>
   </g>
   <g id="text_9">
-   <!-- NYC measles cases by vaccination status -->
+   <!-- NYC measles cases by MMR vaccination status -->
    <defs>
     <path d="M 7.625 0 
 L 7.625 71.578125 
@@ -968,7 +968,7 @@ L 48.4375 0
 z
 " id="ArialMT-117"/>
    </defs>
-   <g transform="translate(97.020781 23.215312)scale(0.22 -0.22)">
+   <g transform="translate(67.695469 23.215312)scale(0.22 -0.22)">
     <use xlink:href="#ArialMT-78"/>
     <use x="72.216797" xlink:href="#ArialMT-89"/>
     <use x="138.916016" xlink:href="#ArialMT-67"/>
@@ -990,24 +990,28 @@ z
     <use x="928.076172" xlink:href="#ArialMT-98"/>
     <use x="983.691406" xlink:href="#ArialMT-121"/>
     <use x="1033.691406" xlink:href="#ArialMT-32"/>
-    <use x="1061.474609" xlink:href="#ArialMT-118"/>
-    <use x="1111.474609" xlink:href="#ArialMT-97"/>
-    <use x="1167.089844" xlink:href="#ArialMT-99"/>
-    <use x="1217.089844" xlink:href="#ArialMT-99"/>
-    <use x="1267.089844" xlink:href="#ArialMT-105"/>
-    <use x="1289.306641" xlink:href="#ArialMT-110"/>
-    <use x="1344.921875" xlink:href="#ArialMT-97"/>
-    <use x="1400.537109" xlink:href="#ArialMT-116"/>
-    <use x="1428.320312" xlink:href="#ArialMT-105"/>
-    <use x="1450.537109" xlink:href="#ArialMT-111"/>
-    <use x="1506.152344" xlink:href="#ArialMT-110"/>
-    <use x="1561.767578" xlink:href="#ArialMT-32"/>
-    <use x="1589.550781" xlink:href="#ArialMT-115"/>
-    <use x="1639.550781" xlink:href="#ArialMT-116"/>
-    <use x="1667.333984" xlink:href="#ArialMT-97"/>
-    <use x="1722.949219" xlink:href="#ArialMT-116"/>
-    <use x="1750.732422" xlink:href="#ArialMT-117"/>
-    <use x="1806.347656" xlink:href="#ArialMT-115"/>
+    <use x="1061.474609" xlink:href="#ArialMT-77"/>
+    <use x="1144.775391" xlink:href="#ArialMT-77"/>
+    <use x="1228.076172" xlink:href="#ArialMT-82"/>
+    <use x="1300.292969" xlink:href="#ArialMT-32"/>
+    <use x="1328.076172" xlink:href="#ArialMT-118"/>
+    <use x="1378.076172" xlink:href="#ArialMT-97"/>
+    <use x="1433.691406" xlink:href="#ArialMT-99"/>
+    <use x="1483.691406" xlink:href="#ArialMT-99"/>
+    <use x="1533.691406" xlink:href="#ArialMT-105"/>
+    <use x="1555.908203" xlink:href="#ArialMT-110"/>
+    <use x="1611.523438" xlink:href="#ArialMT-97"/>
+    <use x="1667.138672" xlink:href="#ArialMT-116"/>
+    <use x="1694.921875" xlink:href="#ArialMT-105"/>
+    <use x="1717.138672" xlink:href="#ArialMT-111"/>
+    <use x="1772.753906" xlink:href="#ArialMT-110"/>
+    <use x="1828.369141" xlink:href="#ArialMT-32"/>
+    <use x="1856.152344" xlink:href="#ArialMT-115"/>
+    <use x="1906.152344" xlink:href="#ArialMT-116"/>
+    <use x="1933.935547" xlink:href="#ArialMT-97"/>
+    <use x="1989.550781" xlink:href="#ArialMT-116"/>
+    <use x="2017.333984" xlink:href="#ArialMT-117"/>
+    <use x="2072.949219" xlink:href="#ArialMT-115"/>
    </g>
   </g>
   <g id="text_10">
@@ -1903,7 +1907,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p42fb2f2879">
+  <clipPath id="p3605224813">
    <rect height="217.44" width="334.8" x="139.21" y="36"/>
   </clipPath>
  </defs>
