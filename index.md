@@ -30,7 +30,7 @@ Jackson Heights, Maspeth, and Woodside, as per this [NYC Health document](https:
 
 Most of the NYC measles cases are in children, particularly the ones aged from 1 to 4 years.
 
-<img src="images/nyc-measles-cases-by-age-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block;">
+<img src="images/nyc-measles-cases-by-age-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block; border:1px solid black;">
 
 ### NYC Measles Cases by Vaccination Status
 
