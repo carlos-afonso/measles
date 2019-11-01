@@ -10,9 +10,9 @@ The measles outbreak in New York City (NYC) was declared over on September 3, 20
 
 ### NYC measles outbreak lasted about one year
 
-The bar chart below shows the temporal evolution of the NYC measles outbreak. In April 2019, at the peak of the measles outbreak, the NYC Health Department took strong measures to increase MMR vaccinations in the most affected areas. Those measures seem to have worked as, since then, the number of new measles cases declined progressively. Such that there were no new cases in August 2019, and community transmission was declared over on September 3, 2019.
+The bar chart below shows the temporal evolution of the NYC measles outbreak. In April 2019, at the peak of the measles outbreak, the NYC Health Department took strong measures to increase MMR vaccinations in the most affected areas. In the following months, the number of new measles cases declined progressively. In August 2019 there were no new cases. On September 3, 2019, community transmission was declared over.
 
-<img src="images/nyc-new-measles-cases-by-month-bar-chart-py.svg" style="max-width:500px; width:97%; height:auto; margin:auto; display:block; border:1px solid black;">
+<img src="images/nyc-new-measles-cases-by-month-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block; border:1px solid black;">
 
 ### NYC Measles Cases by Neighborhood
 
