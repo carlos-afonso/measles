@@ -6,15 +6,15 @@ The United States is facing, in 2019, the highest number of Measles cases since 
 
 ## New York City (NYC)
 
-The measles outbreak in New York City (NYC) was declared over on September 3, 2019, practically one year after the first case was detected (on the month of September 2018). With 649 confirmed measles cases, NYC is by far the U.S. jurisdiction with most cases, accounting for around half of all U.S. measles cases in 2019. The [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"} provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date. This section presents visualizations of that raw data, to help understand the 2019 measles outbreak in NYC.
+The measles outbreak in New York City (NYC) was declared over on September 3, 2019, practically one year after the first case was detected. With 649 confirmed measles cases, NYC is by far the U.S. jurisdiction with most cases, accounting for around half of all U.S. measles cases in 2019. The [NYC Health Measles webpage](https://www1.nyc.gov/site/doh/health/health-topics/measles.page){:target="&#95;blank" rel="noopener"} provides raw data about the number of measles cases by neighborhood, age, vaccination status, and date. This section presents visualizations of that raw data, to help understand the 2019 measles outbreak in NYC.
 
-### NYC measles outbreak lasted about one year
+### NYC new measles cases by month
 
-The bar chart below shows the temporal evolution of the NYC measles outbreak. In April 2019, at the peak of the measles outbreak, the NYC Health Department took strong measures to increase MMR vaccinations in the most affected areas. In the following months, the number of new measles cases declined progressively. In August 2019 there were no new cases. On September 3, 2019, community transmission was declared over.
+The bar chart below shows the temporal evolution of the NYC measles outbreak. In April 2019, at the peak of the measles outbreak, the NYC Health Department took strong measures to increase MMR vaccinations in the most affected neighborhoods. In the following months, the number of new measles cases declined progressively. In August 2019 there were no new cases. On September 3, 2019, community transmission was declared over.
 
 <img src="images/nyc-new-measles-cases-by-month-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block; border:1px solid black;">
 
-### NYC Measles Cases by Neighborhood
+### NYC measles cases by neighborhood
 
 The visualization below shows the geographic distribution of the measles cases over the NYC map, explicitly showing the number of measles cases in each of the affected neighborhoods.
 
@@ -26,13 +26,13 @@ Note that:
 * West Queens includes the neighborhoods of Corona, Elmhurst,
 Jackson Heights, Maspeth, and Woodside, as per this [NYC Health document](https://www1.nyc.gov/assets/doh/downloads/pdf/data/2006chp-402.pdf){:target="&#95;blank" rel="noopener"}.
 
-### NYC Measles Cases by Age
+### NYC measles cases by age
 
 Most of the NYC measles cases are in children, particularly the ones aged from 1 to 4 years.
 
 <img src="images/nyc-measles-cases-by-age-bar-chart-py.svg" style="max-width:500px; width:98%; height:auto; margin:auto; display:block; border:1px solid black; padding:5px;">
 
-### NYC Measles Cases by Vaccination Status
+### NYC measles cases by vaccination status
 
 The bar chart below shows the MMR vaccination status of the NYC measles cases. The large majority of the people who got measles were unvaccinated.
 
