@@ -51,5 +51,6 @@ I recommend that you run the following conda commands __sequentially__ to create
 Note about the commands above:
 * The actual commands start after the `>` symbol. The `(base) username>` and `(measles) username>` parts are provided to help understand the active environment and each point.
 * The commands above use `measles` as the name for the new environment but you can use a different name if you prefer.
+* The whole installation process takes about 5 minutes.
 
 If necessary, this is a good reference about managing conda environments: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
