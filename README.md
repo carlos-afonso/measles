@@ -26,26 +26,30 @@ This package requires the following 12 packages:
 
 Moreover, it's convenient to have the `jupyterlab-toc` extension.
 
-I recommend you run the following conda commands (sequentially) to create a new environment for this project and install all the necessary packages. (Note that the commands below use `measles` as the name for the new environment but you can use a different name if you prefer.)
+I recommend that you run the following conda commands __sequentially__ to create a new environment for this project and install all the necessary packages.
 
 1. While on the base environment, use the following command to create a new `measles` environment and install 9 of the 12 necessary packages:
 
-`conda create -n measles python bokeh imageio jupyterlab matplotlib pandas pillow selenium xlrd`
+`(base) username> conda create -n measles python bokeh imageio jupyterlab matplotlib pandas pillow selenium xlrd`
 
 2. Use the following command to activate the new `measles` environment:
 
-`conda activate measles`
+`(base) username> conda activate measles`
 
-3. Use the following command to install the remaining 3 necessary packages (in the `measles` environment):
+3. Once the `measles` environment is activated, use the following command to install the remaining 3 necessary packages:
 
-`conda install -c conda-forge folium nodejs phantomjs`
+`(measles) username> conda install -c conda-forge folium nodejs phantomjs`
 
 4. Use the following command to install the `jupyterlab-toc` extension:
 
-`jupyter labextension install @jupyterlab/toc`
+`(measles) username> jupyter labextension install @jupyterlab/toc`
 
 5. Now you are ready and you can use the following command to lunch jupyterlab, where you can open and run this project's notebooks:
 
-`jupyter lab`
+`(measles) username> jupyter lab`
 
-Reference about managing conda environments: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+Please note that:
+* Above, the actual commands start after the symbol `>`. The `(base) username>` and `(measles) username>` parts are provided to help understand the active environment and each point.
+* The commands above use `measles` as the name for the new environment but you can use a different name if you prefer.
+
+If necessary, this is a good reference about managing conda environments: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
