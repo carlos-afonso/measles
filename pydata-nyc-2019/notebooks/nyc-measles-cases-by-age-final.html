@@ -13080,7 +13080,7 @@ div#notebook {
 <h1 id="NYC-measles-cases-by-age-(2018---2019)">NYC measles cases by age (2018 - 2019)<a class="anchor-link" href="#NYC-measles-cases-by-age-(2018---2019)">&#182;</a></h1><ul>
 <li>This Jupyter/Python notebook creates a bar chart of the 2018-2019 NYC measles outbreak cases by age group.</li>
 <li>This notebook is part of the <a href="https://carlos-afonso.github.io/measles/">Visualizing the 2019 Measles Outbreak</a> open-source GitHub project.</li>
-<li><a href="https://www.linkedin.com/in/carlos-afonso-w/">Carlos Afonso</a>, November 5, 2019.</li>
+<li><a href="https://www.linkedin.com/in/carlos-afonso-w/">Carlos Afonso</a>, November 6, 2019.</li>
 </ul>
 
 </div>
@@ -13112,10 +13112,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Read-and-show-the-data">Read and show the data<a class="anchor-link" href="#Read-and-show-the-data">&#182;</a></h2><ul>
-<li>The data has been manually collected from the <a href="https://www1.nyc.gov/site/doh/health/health-topics/measles.page">NYC Health Measles webpage</a>, and saved as a CSV file.</li>
-<li>This manual approach because the data is small.</li>
-</ul>
+<h2 id="Read-and-show-the-data">Read and show the data<a class="anchor-link" href="#Read-and-show-the-data">&#182;</a></h2><p>The data was manually collected from the <a href="https://www1.nyc.gov/site/doh/health/health-topics/measles.page">NYC Health Measles webpage</a> and saved as a CSV file. This manual approach was used because the data is small.</p>
 
 </div>
 </div>
@@ -13271,7 +13268,7 @@ div#notebook {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Get the number of total cases</span>
 <span class="n">total_cases</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-    
+
 <span class="c1"># Check if there is a problem with the data where the reported total</span>
 <span class="c1"># does not match the sum of the number of cases for each age group</span>
 <span class="k">if</span> <span class="n">total_cases</span> <span class="o">!=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">():</span>
@@ -13429,7 +13426,7 @@ Name: 0, dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Create-improved-bar-chart">Create improved bar chart<a class="anchor-link" href="#Create-improved-bar-chart">&#182;</a></h2><p>We want the bar chart of the NYC Measles Cases by Age to be clear and to contain the necessary context.</p>
+<h2 id="Create-improved-bar-chart">Create improved bar chart<a class="anchor-link" href="#Create-improved-bar-chart">&#182;</a></h2><p>We want the bar chart to be clear and to contain the necessary context.</p>
 <p>To contextualize the bar chart we:</p>
 <ul>
 <li>use a title that explictly says what the bar chart represents;</li>
@@ -13442,7 +13439,7 @@ Name: 0, dtype: object</pre>
 </ul>
 <p>To make the bar chart as clear as possible we:</p>
 <ul>
-<li>use an horizontal bar chart because it is  easier to read than a vertical one;</li>
+<li>use an horizontal bar chart because it is easier to read than a vertical one;</li>
 <li>explicitly show the number and percentage of cases for each age group;</li>
 <li>use a large enough font to make all labels easy to read;</li>
 <li>remove unnecessary elements (x-axis ticks and values, y-axis ticks, and plot box).</li>
@@ -13453,7 +13450,7 @@ Name: 0, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Define font parameters</span>
@@ -13491,14 +13488,15 @@ Name: 0, dtype: object</pre>
 <span class="c1"># Remove the axes box</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
 
-<span class="c1"># Add text</span>
+<span class="c1"># Add note about the total cases</span>
 <span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">total_cases</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; total confirmed cases from &#39;</span> <span class="o">+</span> <span class="n">start_month</span> <span class="o">+</span> <span class="s1">&#39; to &#39;</span> <span class="o">+</span> <span class="n">end_month</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">fontname</span> <span class="o">=</span> <span class="n">fn</span><span class="p">,</span> <span class="n">fontsize</span> <span class="o">=</span> <span class="p">(</span><span class="n">fsb</span> <span class="o">-</span> <span class="mi">2</span><span class="p">),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
 
+<span class="c1"># Add note about the end of the outbreak</span>
 <span class="n">text</span> <span class="o">=</span> <span class="s1">&#39;Community transmission was declared over on Sep 3, 2019&#39;</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">fontname</span> <span class="o">=</span> <span class="n">fn</span><span class="p">,</span> <span class="n">fontsize</span> <span class="o">=</span> <span class="p">(</span><span class="n">fsb</span> <span class="o">-</span> <span class="mi">2</span><span class="p">),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
 
-<span class="c1"># Add text about the Data and Image sources</span>
+<span class="c1"># Add note about the Data and Image sources</span>
 <span class="n">sources</span> <span class="o">=</span> <span class="s1">&#39;Data: NYC Health, Image: carlos-afonso.github.io/measles&#39;</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">sources</span><span class="p">,</span> <span class="n">fontname</span><span class="o">=</span><span class="s1">&#39;Lucida Console&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="p">(</span><span class="n">fsb</span> <span class="o">-</span> <span class="mi">4</span><span class="p">),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
 
@@ -13542,7 +13540,7 @@ Name: 0, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set image file path/name (without file extension)</span>
@@ -13569,7 +13567,7 @@ Name: 0, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Export this notebook as a static HTML page</span>
@@ -13586,7 +13584,7 @@ Name: 0, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -13597,19 +13595,6 @@ Name: 0, dtype: object</pre>
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 
