@@ -10,7 +10,7 @@ Please refer to the Requirements section below about the package requirements an
 
 ## Requirements
 
-This package requires the following 12 packages:
+This project requires the following 12 packages:
 * python
 * bokeh
 * folium
