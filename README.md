@@ -53,4 +53,4 @@ Note about the commands above:
 * The commands above use `measles` as the name for the new environment but you can use a different name if you prefer.
 * The whole installation process takes about 5 minutes.
 
-If necessary, this is a good reference about managing conda environments: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+Reference about managing conda environments: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
