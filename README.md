@@ -4,7 +4,7 @@ All visualizations presented in the project homepage: https://carlos-afonso.gith
 
 ## PyData NYC 2019 tutorial
 
-* The `pydata-nyc-2019` folder contains all the tutorial materials.
+* The `pydata-nyc-2019` folder contains all the tutorial materials (data, images, and notebooks).
 * Tutorial's main notebook: `pydata-nyc-2019/notebooks/pydata-nyc-2019-tutorial.ipynb` ( [.ipynb](https://github.com/carlos-afonso/measles/blob/master/pydata-nyc-2019/notebooks/pydata-nyc-2019-tutorial.ipynb) ) ( [.html](https://carlos-afonso.github.io/measles/pydata-nyc-2019/notebooks/pydata-nyc-2019-tutorial.html) )
   * If you have problems seeing the .ipynb version, you can always see the static .html version.
 * Please refer to the Requirements section below about the package requirements and installation instructions.
