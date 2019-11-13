@@ -40,6 +40,8 @@ The bar chart below shows the MMR vaccination status of the NYC measles cases. T
 
 ## Notes
 
+__PyData NYC 2019:__ I presented part of this project at the [PyData NYC 2019 conference](https://pydata.org/nyc2019){:target="&#95;blank" rel="noopener"} in a tutorial entitled "Visualizing the 2019 Measles Outbreak in NYC (with Python)". Links to all tutorial materials are available in the GitHub repository's [README.md page](https://github.com/carlos-afonso/measles/blob/master/README.md).
+
 This webpage is a work in progress:
 * The current visualizations will be updated whenever the corresponding data sources are updated.
 * Additional locations / visualizations will be added soon.
